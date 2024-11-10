@@ -11,8 +11,8 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 ![Durée](https://img.shields.io/badge/Durée-30%20heures-orange)
 ![Mise à jour](https://img.shields.io/badge/Mise%20%C3%A0%20jour-Novembre_2024-brightgreen)
 ![Sessions](https://img.shields.io/badge/Nombre%20de%20Sessions-20-purple)
-![Statut](https://img.shields.io/badge/Statut-À_venir-red)
----
+![Statut](https://img.shields.io/badge/Statut%20-À_venir-red)
+
 
 # <span style="color:magenta; font-size:1.8em;">Programme de la Formation</span>
 
