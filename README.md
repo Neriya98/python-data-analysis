@@ -1,4 +1,4 @@
-<img src="/Neriya98/python-data-analysis/2.png" alt="Logo Formation Analyse de Données avec Python" height = 510 width="1000"/>
+<img src="2.png" alt="Logo Formation Analyse de Données avec Python" height = 510 width="1000"/>
 
 # 📘 Formation en Analyse de Données avec Python  
 [![Python Badge](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/) 
