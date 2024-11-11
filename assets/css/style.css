@@ -1,38 +1,31 @@
-/* --- Style global --- */
+/* --- Global Styles --- */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Police moderne et joviale */
     color: #333;
-    background-color: #f8f9fa; /* Gris clair pour le fond */
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
-/* Conteneur central pour tout le contenu */
+
+/* --- Container Central --- */
 .container {
     max-width: 1200px;
-    margin: 0 auto; /* Centrage horizontal */
+    margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff; /* Fond blanc pour le conteneur */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet de carte */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Liens */
-a {
-    color: #3498db; /* Bleu pour les liens */
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ffcc00; /* Changer la couleur des liens au survol */
-}
-
-/* --- En-tête --- */
+/* --- Header --- */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: #222; /* Fond sombre pour l'en-tête */
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 header img {
@@ -45,14 +38,141 @@ header h1 {
     color: #fff; /* Couleur du titre */
 }
 
-/* --- Conteneur principal --- */
-.main-content {
-    width: 100%;
-    max-width: 1200px; /* Limite la largeur du contenu */
-    margin: 20px auto; /* Centrage du contenu */
-    padding: 20px;
+/* En-tête */
+.header-content {
+    text-align: center;
+    padding: 20px 0;
 }
 
+.logo {
+    max-width: 200px;
+}
+
+
+.header-content h1 {
+    font-size: 2.5rem;
+    animation: fadeInText 3s infinite alternate; /* Animation du texte */
+}
+
+@keyframes fadeInText {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.header-content h1 span {
+    display: inline-block;
+    animation: changeText 10s infinite;
+}
+
+@keyframes changeText {
+    0%, 25% { content: 'Développez vos compétences en données'; }
+    25%, 50% { content: 'Découvrez l’analyse de données avec Python'; }
+    50%, 75% { content: 'Maîtrisez Python pour l’analyse de données'; }
+    75%, 100% { content: 'Accélérez votre carrière en Data Science'; }
+}
+
+
+/* --- Navigation Menu --- */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* --- Custom Bullet Points --- */
+section.objectives ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section.objectives li::before {
+    content: "+";
+    color: #007bff; /* Couleur de puce personnalisée */
+    font-size: 1.5em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* --- Sections --- */
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.section-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.faq-item summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    font-weight: bold;
+}
+
+.faq-item[open] summary::after {
+    content: "-";
+}
+
+/* --- Animations --- */
+.container, nav, .faq-item summary {
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
+
+
+
+
+/* Liens */
+a {
+    color: #3498db; /* Bleu pour les liens */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcc00; /* Changer la couleur des liens au survol */
+}
+
+/* Responsive mode */
 @media (max-width: 908px) {
     .main-content {
         max-width: 100%;
@@ -85,15 +205,6 @@ header h1 {
     font-weight: bold;
 }
 
-/* En-tête */
-.header-content {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.logo {
-    max-width: 200px;
-}
 
 /* Témoignages */
 blockquote {
@@ -157,35 +268,7 @@ footer .github-info {
     display: none;
 }
 
-/* --- Navigation --- */
-header nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #333; /* Fond sombre */
-    padding: 10px;
-}
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-header nav ul li {
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-header nav ul li a:hover {
-    color: #ffcc00; /* Changement de couleur au survol */
-}
 
 /* --- Sections spécifiques --- */
 section.welcome {
