@@ -8,7 +8,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 
 ![Nombre de places disponibles](https://img.shields.io/badge/Places_disponibles-30-brightgreen)
 ![Langue](https://img.shields.io/badge/Langue-Français-blue)
-![Durée](https://img.shields.io/badge/Durée-30%20heures-orange)
+![Durée](https://img.shields.io/badge/Durée-30+%20heures-orange)
 ![Mise à jour](https://img.shields.io/badge/Mise%20%C3%A0%20jour-Novembre_2024-brightgreen)
 ![Sessions](https://img.shields.io/badge/Nombre%20de%20Sessions-20-purple)
 ![Statut](https://img.shields.io/badge/Statut%20-À_venir-red)
@@ -123,13 +123,13 @@ Les structures de controle
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 5 : Acquisition et Gestion de Données Hébergées</span>
 
 <details>
-<strong style="font-size: 1.4em;">Session 10 : Acquisition de Données depuis une Base SQL (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 12 : Acquisition de Données depuis une Base SQL (1h30)</strong>
 <ul style="line-height:35px;">
     <li> 🗄️ Introduction aux bases de données SQL et connexion avec Python</li>
     <li> 📝 Exercice : Se connecter à une base SQL et importer un jeu de données </li>
 </ul>
 
-<strong style="font-size: 1.4em;">Session 11 : Introduction à MongoDB et Données Non Structurées (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 13 : Introduction à MongoDB et Données Non Structurées (1h30)</strong>
 <ul style="line-height:35px;">
     <li> 📂 Utilisation de MongoDB pour des données non structurées </li>
     <li> 📝 Exercice : Charger des données depuis MongoDB </li>
@@ -139,13 +139,13 @@ Les structures de controle
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 6 : Analyse Exploratoire et Visualisation de Données</span>
 
 <details>
-<strong style="font-size: 1.4em;">Session 12 : Analyse Exploratoire des Données avec Pandas (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 14 : Analyse Exploratoire des Données avec Pandas (1h30)</strong>
 <ul style="line-height:35px;">
     <li>📊 Statistiques descriptives et premières visualisations </li>
     <li>📝 Exercice : Réaliser une analyse exploratoire </li>
 </ul>
 
-<strong style="font-size: 1.4em;">Session 13 : Visualisation avec Matplotlib, Seaborn & Plotly (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 15 : Visualisation avec Matplotlib, Seaborn & Plotly (1h30)</strong>
 <ul style="line-height:35px;">
     <li> 📈 Création de graphiques :</li> 
         <ul style ="line-heigt:30px;">
@@ -163,11 +163,11 @@ Les structures de controle
 
 <details>
 
-<strong style="font-size: 1.4em;">Session 14 : Les Bases pour Flask (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 16 : Les Bases pour Flask (1h30)</strong>
 - 🌐 Retour sur HTML et décorateurs en Flask  
 - 📝 **Exercice** : Concevoir une page avec HTML  
 
-<strong style="font-size: 1.4em;">Session 15 : Monitoring avec Flask (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 17 : Monitoring avec Flask (1h30)</strong>
 - 📊 Création d’une interface de visualisation  
 - 📝 **Exercice** : Créer un tableau de bord  
 </details>
@@ -176,11 +176,11 @@ Les structures de controle
 
 <details>
 
-<strong style="font-size: 1.4em;">Session 17 : Introduction à l’Automatisation (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 18 : Introduction à l’Automatisation (1h30)</strong>
 - ⚙️ Automatiser extraction et nettoyage de données  
 - 📝 **Exercice** : Créer un script de nettoyage  
 
-<strong style="font-size: 1.4em;">Session 18 : Structuration des Scripts (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 19 : Structuration des Scripts (1h30)</strong>
 - 🛠️ Organisation des scripts pour réutilisation  
 - 📝 **Exercice** : Créer un mini-pipeline d'analyse  
 </details>
@@ -188,7 +188,7 @@ Les structures de controle
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 9 : Méthodologie d'Analyse de Projet</span>
 
 <details>
-<strong style="font-size: 1.4em;">Session 19 : Structuration d’un Projet d’Analyse (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 20 : Structuration d’un Projet d’Analyse (1h30)</strong>
 - 📝 Structurer un projet d’analyse, planification et organisation  
 </details>
 
@@ -196,7 +196,7 @@ Les structures de controle
 
 <details>
 
-<strong style="font-size: 1.4em;">Session 20 : Retour sur la Méthodologie (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 21 : Retour sur la Méthodologie (1h30)</strong>
 - 🎓 Questions et synthèse méthodologique  
 </details>
 
