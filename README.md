@@ -16,7 +16,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 
 # <span style="color:magenta; font-size:1.8em;">Programme de la Formation</span>
 
-## <span style="color:#007acc; font-size:1.6em;">Semaine 1 : Introduction à Python et Gestion de Projet</span>
+<h2><span style="color:#007acc; font-size:1.6em;">Semaine 1 : Introduction à Python et Gestion de Projet</span></h2>
 
 <details> 
 
@@ -43,7 +43,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 </details>
 
 
-## <span style="color:#007acc; font-size:1.6em;">Semaine 2 : Maîtrise des Fondamentaux de Python</span>
+ <h2><span style="color:#007acc; font-size:1.6em;">Semaine 2 : Maîtrise des Fondamentaux de Python</span></h2>
 
 <details>
 
