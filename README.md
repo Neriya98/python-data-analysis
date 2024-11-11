@@ -157,6 +157,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
             <li> Analyse spatiale </li>
         </ul>
     <li> 📝 Exercice : Visualiser des données  </li>
+</ul>
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 7 : Création de Tableaux de Bord avec Flask</span>
@@ -164,12 +165,16 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 <details>
 
 <strong style="font-size: 1.4em;">Session 16 : Les Bases pour Flask (1h30)</strong>
-- 🌐 Retour sur HTML et décorateurs en Flask  
-- 📝 **Exercice** : Concevoir une page avec HTML  
+<ul style="line-height:35px;">
+    <li> 🌐 Retour sur HTML et décorateurs en Flask</li>  
+    <li> 📝 Exercice : Concevoir une page avec HTML</li>
+</ul>
 
 <strong style="font-size: 1.4em;">Session 17 : Monitoring avec Flask (1h30)</strong>
-- 📊 Création d’une interface de visualisation  
-- 📝 **Exercice** : Créer un tableau de bord  
+<ul style="line-height:35px;">
+    <li> 📊 Création d’une interface de visualisation  </li>  
+    <li> 📝 Exercice : Créer un tableau de bord</li>
+</ul>
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 8 : Automatisation de Tâches avec des Scripts Python</span>
@@ -177,26 +182,34 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 <details>
 
 <strong style="font-size: 1.4em;">Session 18 : Introduction à l’Automatisation (1h30)</strong>
-- ⚙️ Automatiser extraction et nettoyage de données  
-- 📝 **Exercice** : Créer un script de nettoyage  
+<ul style="line-height:35px;">
+    <li> ⚙️ Automatiser extraction et nettoyage de données </li>  
+    <li> 📝 Exercice : Créer un script de nettoyage</li>
+</ul>
 
 <strong style="font-size: 1.4em;">Session 19 : Structuration des Scripts (1h30)</strong>
-- 🛠️ Organisation des scripts pour réutilisation  
-- 📝 **Exercice** : Créer un mini-pipeline d'analyse  
+<ul>
+    <li> 🛠️ Organisation des scripts pour réutilisation </li>
+    <li> 📝 Exercice : Créer un mini-pipeline d'analyse </li>
+</ul>
 </details>
 
-## <span style="color:#007acc; font-size:1.5em;">Semaine 9 : Méthodologie d'Analyse de Projet</span>
+## <span style="color:#007acc; font-size:1.5em;">Semaine 9 : Méthodologie d'analyse de données</span>
 
 <details>
 <strong style="font-size: 1.4em;">Session 20 : Structuration d’un Projet d’Analyse (1h30)</strong>
-- 📝 Structurer un projet d’analyse, planification et organisation  
+<ul style="line-height:35px;">
+    <li> 📝 Structurer un projet d’analyse</li>
+    <li> Planification</li>
+    <li> Organisation </li>
+</ul>
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 10 : Synthèse et Questions</span>
 
 <details>
 
-<strong style="font-size: 1.4em;">Session 21 : Retour sur la Méthodologie (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 21 : Retour sur la Méthodologie (1h)</strong>
 - 🎓 Questions et synthèse méthodologique  
 </details>
 
