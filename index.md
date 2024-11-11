@@ -3,12 +3,13 @@ layout: default
 title: "Accueil"
 ---
 <header>
-  <img src="./assets/images/2.png" alt="Company Logo" class="logo" />
+  <img src="./assets/images/Sans_fond_1.png" alt="Company Logo" class="logo" />
   <h1>Quanty Minds</h1>
 </header>
 
+<body>
 
-# Bienvenue à la Formation Analyse de Données avec Python 🎉
+<h1>Bienvenue à la Formation Analyse de Données avec Python 🎉</h1>
 
 Bienvenue dans ce programme de formation en analyse de données avec Python. Ce cours couvre les bases de Python, la manipulation des données, et la création de tableaux de bord interactifs.
 
@@ -33,3 +34,4 @@ _"Le contenu est clair et bien structuré, parfait pour débutants et intermédi
 ---
 
 Pour toute question, [contactez-nous](./contact).
+</body>
