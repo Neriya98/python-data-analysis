@@ -36,12 +36,12 @@ header {
 }
 
 header img {
-    height: 50px; /* Logo taille ajustée */
+    height: 35px; /* Logo taille ajustée */
     margin-right: 10px;
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #fff; /* Couleur du titre */
 }
 

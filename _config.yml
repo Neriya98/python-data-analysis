@@ -7,7 +7,7 @@ plugins:
   - jekyll-seo-tag
 
 # Configuration du menu de navigation
-nav:
+navigation:
   - title: "Accueil"
     url: "/"
   - title: "Programme"
