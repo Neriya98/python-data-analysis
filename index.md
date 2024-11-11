@@ -1,13 +1,5 @@
 <html>
 
-<nav>
-  <ul>
-    <li><a href="/">Accueil</a></li>
-    <li><a href="/programme.md">Programme</a></li>
-    <li><a href="/contact.md">Contact</a></li>
-  </ul>
-</nav>
-
 <header>
   <img src="./assets/images/Sans_fond_1.png" alt="Logo" class="logo" />
   <h1>{{ site.title }}</h1>

@@ -4,23 +4,18 @@ h1, h2, h3 {
     color: #2C3E50;
 }
 
-.page-title {
-    color: #3498db;
-}
-
 /* Style pour les badges */
 .badge {
     background-color: #3498db;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
-    text-decoration: none;
     font-weight: bold;
 }
 
 /* Style des éléments de liste */
 ul, ol {
-    line-height: 1.8;
+    line-height: 35px;
 }
 
 /* Style pour le contenu */
@@ -29,28 +24,52 @@ details summary {
     cursor: pointer;
 }
 
+/* Style pour le logo */
 .logo {
-    height: 50px; /* Ajuste la taille du logo */
-    margin-right: 10px; /* Espace entre le logo et le titre */
-  }
-  
-.page-title {
-    display: none;
-  }
+    height: 50px;
+    margin-right: 10px;
+}
 
-  /* Style pour l'en-tête */
-.header {
+/* Personnalisation de l'en-tête */
+header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-  }
-  
-  header img {
-    height: 50px; /* Ajuste la taille du logo */
-    margin-right: 10px; /* Espace entre le logo et le titre */
-  }
-  
-  header h1 {
+}
+
+header img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
     font-size: 2rem;
-  }
-  
+}
+
+/* Personnalisation de la barre de navigation */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}

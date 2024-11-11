@@ -6,14 +6,14 @@ plugins:
   - jekyll-seo-tag
 
 # Menu de navigation
-navigation:
+header_pages:
   - title: "Accueil"
     url: "/"
   - title: "Programme"
     url: "/programme"
   - title: "Contact"
     url: "/contact"
-
+    
 # Configuration Jekyll
 markdown: kramdown
 kramdown:
