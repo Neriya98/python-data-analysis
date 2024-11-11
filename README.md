@@ -1,6 +1,9 @@
-<img src="2.png" alt="Logo Formation Analyse de Données avec Python" height = 510 width="1080"/>
+# 📘 Formation en Analyse de Données avec Python 
+<img src="1.png" alt="Formation Analyse de Données avec Python" height="20">![Formation Badge](https://img.shields.io/badge/Formation-Analyse%20de%20Données%20avec%20Python-blue?)
 
-# 📘 Formation en Analyse de Données avec Python  
+
+
+
 [![Python Badge](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/) 
 ![Data Science](https://img.shields.io/badge/Data_Analysis-blue?)
 
