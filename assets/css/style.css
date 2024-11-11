@@ -69,6 +69,11 @@ header h1 {
         color: #e63946;
         font-size: 1.2em;
     }
+
+    p {
+        line-height: 28px; /* Ajustez la valeur selon vos besoins, comme 1.5, 1.6, etc. */
+        margin-bottom: 15px; /* Espace entre les paragraphes */
+    }
 }
 
 /* --- Badges --- */
