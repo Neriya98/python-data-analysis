@@ -37,7 +37,6 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
             <li> Découverte des variables, assignation, modification</li>
             <li> Types de données en Python</li>
         </ul>
-    </li>
     <li>📝 Exercice : Créer des scripts pour explorer les structures de données simples</li>
 </ul>
 </details>
