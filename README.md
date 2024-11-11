@@ -16,11 +16,11 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 
 # <span style="color:magenta; font-size:1.8em;">Programme de la Formation</span>
 
-<h2><span style="color:#007acc; font-size:1.6em;">Semaine 1 : Introduction à Python et Gestion de Projet</span></h2>
+<h2><span style="color:#007acc; font-size:1.5em;">Semaine 1 : Introduction à Python et Gestion de Projet</span></h2>
 
 <details> 
 
-<strong style="font-size: 1.5em;">Session 1 : Organisation et Versioning de Projet (1h30)</strong>
+<strong style="font-size: 1.4em;">Session 1 : Organisation et Versioning de Projet (1h30)</strong>
 
 <ul style="line-height: 35px;">
     <li> 🗂️ Introduction à Git et GitHub pour le contrôle de version </li>
