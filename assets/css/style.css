@@ -73,3 +73,8 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #ffcc00;
 }
+
+/* Masquer la section footer GitHub */
+footer .github-info {
+    display: none;
+}

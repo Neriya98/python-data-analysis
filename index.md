@@ -1,11 +1,7 @@
-<html>
-
 <header>
   <img src="./assets/images/Sans_fond_1.png" alt="Logo" class="logo" />
   <h1>{{ site.title }}</h1>
 </header>
-
-<body>
 
 <h1>Bienvenue à la Formation Analyse de Données avec Python 🎉</h1>
 
@@ -32,5 +28,3 @@ _"Le contenu est clair et bien structuré, parfait pour débutants et intermédi
 ---
 
 Pour toute question, [contactez-nous](./contact).
-</body>
-</html>
