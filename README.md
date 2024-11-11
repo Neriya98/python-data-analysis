@@ -210,7 +210,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 <details>
 
 <strong style="font-size: 1.4em;">Session 21 : Retour sur la Méthodologie (1h)</strong>
-- 🎓 Questions et synthèse méthodologique  
+<p> 🎓 Questions et synthèse méthodologique  </p>
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 12 : Soutenance et Présentation du Projet Final</span>
