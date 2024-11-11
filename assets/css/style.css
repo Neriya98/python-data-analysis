@@ -58,6 +58,17 @@ header h1 {
         max-width: 100%;
         padding: 10px;
     }
+    h2 {
+        color: #333;
+        font-size: 1.4em;
+        border-bottom: 2px solid #d0e1f9;
+        padding-bottom: 5px;
+    }
+    
+    h3 {
+        color: #e63946;
+        font-size: 1.2em;
+    }
 }
 
 /* --- Badges --- */
