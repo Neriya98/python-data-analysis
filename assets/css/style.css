@@ -232,3 +232,8 @@ footer .github-info {
 header .github-info {
     display: none;
 }
+
+.welcome p {
+    line-height: 28px;
+    margin-bottom: 15px;
+}
