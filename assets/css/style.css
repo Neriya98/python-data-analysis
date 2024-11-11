@@ -78,3 +78,53 @@ header nav ul li a:hover {
 footer .github-info {
     display: none;
 }
+
+/* Masquer les liens GitHub Pages dans le header */
+header .github-info {
+    display: none;
+}
+
+/* Conteneur principal */
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Conteneur pour les petits écrans */
+@media (max-width: 768px) {
+    .main-content {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Conteneur principal (dans le thème par défaut) */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+body {
+    background-color: #000; /* Noir */
+    color: #fff; /* Texte blanc */
+}
+
+/* Liens */
+a {
+    color: #3498db; /* Bleu pour les liens */
+}
+
+a:hover {
+    color: #ffcc00; /* Changer la couleur des liens au survol */
+}
