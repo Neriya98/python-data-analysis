@@ -65,6 +65,21 @@ h1, h2, h3 {
     font-family: 'Arial', sans-serif;
     color: #2C3E50;
 }
+h1{
+    font-size: 1.6em;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    border-bottom: 2px solid #d0e1f9;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #e63946;
+    font-size: 1.3em;
+}
 
 .page-title {
     color: #3498db;
