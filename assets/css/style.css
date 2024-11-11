@@ -1,3 +1,30 @@
+/* Style pour le titre principal */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: #2C3E50;
+}
+
 .page-title {
-    display: none;
+    color: #3498db;
+}
+
+/* Style pour les badges */
+.badge {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style des éléments de liste */
+ul, ol {
+    line-height: 1.8;
+}
+
+/* Style pour le contenu */
+.details summary {
+    font-size: 1.1em;
+    cursor: pointer;
 }
