@@ -28,3 +28,14 @@ ul, ol {
     font-size: 1.1em;
     cursor: pointer;
 }
+
+.logo {
+    height: 50px; /* Ajuste la taille du logo */
+    margin-right: 10px; /* Espace entre le logo et le titre */
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+  }
+  

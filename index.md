@@ -2,8 +2,11 @@
 layout: default
 title: "Accueil"
 ---
+<header>
+  <img src="./assets/images/2.png" alt="Company Logo" class="logo" />
+  <h1>Quanty Minds</h1>
+</header>
 
-![Logo Formation](./assets/images/2.png)
 
 # Bienvenue à la Formation Analyse de Données avec Python 🎉
 
