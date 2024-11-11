@@ -39,3 +39,6 @@ ul, ol {
     align-items: center;
   }
   
+  .page-title {
+    display: none;
+  }

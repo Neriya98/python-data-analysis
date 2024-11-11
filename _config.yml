@@ -1,14 +1,12 @@
 title: "Formation Analyse de Données avec Python"
-theme: jekyll-theme-minimal  # ou choisissez un autre thème supportant la navigation
+description: "Un programme complet pour maîtriser l'analyse de données avec Python"
+theme: minima  # Vous pouvez choisir un autre thème GitHub Pages
+remote_theme: "pages-themes/minimal@v0.2.0" # Autre exemple de thème
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Program"
-    url: "/programme"
-  - title: "Contact"
-    url: "/contact"
-
+# Menu de navigation
 nav:
   - title: "Accueil"
     url: "/"
@@ -17,9 +15,16 @@ nav:
   - title: "Contact"
     url: "/contact"
 
-# Inclure le CSS personnalisé
+# Configuration Jekyll
 markdown: kramdown
 kramdown:
   input: GFM
 include:
   - assets/css/style.css
+
+# Options SEO
+seo:
+  title: "Formation Analyse de Données avec Python"
+  description: "Apprenez l'analyse de données avec Python, des bases à l'automatisation"
+  twitter:
+    username: "votre_nom_twitter"
