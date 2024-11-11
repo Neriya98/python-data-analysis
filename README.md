@@ -48,63 +48,115 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 
 <strong style="font-size: 1.4em;">Session 3 : Notions de Base en Python - Partie 2 (1h30)</strong>
 <ul style="line-height: 35px;">
-    <li>📊 Exploration avancée des structures de données : approfondissement des listes, dictionnaires et ensembles</li>
+    <li>📊 Exploration avancée des structures de données :</li> 
+    <ul style = "line-height:30px;">
+        <li> Listes </li>
+        <li> Dictionnaires</li>
+        <li> Ensembles</li>
+    </ul>
 </ul>
 
 <strong style="font-size: 1.4em;">Session 4 : Notions de Base en Python - Partie 3 (1h30)</strong>
+Les structures de controle
+<ul style="line-height: 35px;">
+    <li>🔄 Boucles</li>
+    <li> Conditions</li>
+</ul>
 
-- 🔄 Structures de contrôle : boucles, conditions, et fonctions simples pour automatiser les opérations  
 </details>
 
 
-## <span style="color:#007acc; font-size:1.5em;">Semaine 3 : Fonctions Avancées en Python</span>
+## <span style="color:#007acc; font-size:1.5em;">Semaine 3 : Les fonctions en Python</span>
 
 <details>
 
-<strong style="font-size: 1.4em;">Session 5 : Fonctions Avancées (1h30)</strong>
-- 🔀 Fonctions avancées : fonctions récursives, lambda, *args, **kwargs
+<strong style="font-size: 1.4em;">Session 5 : Introduction aux fonctions (1h30)</strong>
 
-<strong style="font-size: 1.4em;">Session 6 : Pratique des Fonctions (1h30)</strong>
-- 📝 **Exercice** : Cas pratiques de manipulation de données avec fonctions personnalisées  
+<ul style="line-height: 35px;">
+    <li> Syntaxe</li>
+    <li> Fonctions avec et sans argument</li>
+    <li> Fonctions lambda</li>
+</ul>
+
+
+<strong style="font-size: 1.4em;">Session 6 : Fonctions Avancées (1h30)</strong>
+
+<ul style="line-height: 35px;">
+    <li>🔀 Fonctions recursives</li>
+    <li> Fonctions *args</li>
+    <li> Fonctions **kwargs</li>
+    <li> 📝 Exercice </li>
+</ul>
+
+<strong style="font-size: 1.4em;"> Session 8 : Séance de pratique sur les bases de python (1h30)</strong>
+📝 Séries d'exercices à pratiquer en live pour maitriser toutes les notions abordées jusque là. 
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 4 : Manipulation de Données avec Pandas</span>
 <details>
 
-<strong style="font-size: 1.4em;">Session 7 : Chargement et Nettoyage de Données (1h30)</strong>
-- 📥 Chargement de fichiers CSV avec Pandas : utilisation de DataFrames  
-- 🧹 Nettoyage des données : gestion des valeurs manquantes et doublons  
-- 📝 **Exercice** : Importer et nettoyer un jeu de données  
+<strong style="font-size: 1.4em;">Session 9 : Chargement et Nettoyage de Données (1h30)</strong>
 
-<strong style="font-size: 1.4em;">Session 8 : Transformation et Préparation de Données (1h30)</strong>
-- 🔍 Transformation des données : filtrage, tri, création de nouvelles colonnes  
-- 📝 **Exercice** : Préparer les données d’un jeu de données pour analyse  
+<ul style="line-height: 35px;">
+    <li> Création de dataFrames et de Series</li>
+    <li> 📥 Chargement de fichiers CSV avec Pandas </li>
+    <li> 🧹 Nettoyage des données : gestion des valeurs manquantes et doublons </li>
+    <li> Sauvegarde de données avec Pandas</li>
+    <li> 📝 Exercice : Importer et nettoyer un jeu de données</li>
+</ul>
+
+<strong style="font-size: 1.4em;">Session 10 : Transformation et Préparation de Données (1h30)</strong>
+<ul style="line-height: 35px;">
+    <li> Filtrage</li>
+    <li> Tri </li>
+    <li> Création de colonnes </li>
+    <li> 📝 Exercice : Préparer les données d’un jeu de données pour analyse</li>
+</ul>
+
+<strong style="font-size:1.4em;"> Session 11 : Séries Temporelles et Préparation de Données (1h30)</strong>
+<ul style="line-height:35px;">
+    <li> ⏳ Nettoyage et préparation des données de séries temporelles </li>
+    <li> 📝 Exercice : Manipuler des séries temporelles pour obtenir un jeu de données impeccable </li>
+</ul>
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 5 : Acquisition et Gestion de Données Hébergées</span>
 
 <details>
 <strong style="font-size: 1.4em;">Session 10 : Acquisition de Données depuis une Base SQL (1h30)</strong>
-
-- 🗄️ Introduction aux bases de données SQL et connexion avec Python  
-- 📝 **Exercice** : Se connecter à une base SQL et importer un jeu de données  
+<ul style="line-height:35px;">
+    <li> 🗄️ Introduction aux bases de données SQL et connexion avec Python</li>
+    <li> 📝 Exercice : Se connecter à une base SQL et importer un jeu de données </li>
+</ul>
 
 <strong style="font-size: 1.4em;">Session 11 : Introduction à MongoDB et Données Non Structurées (1h30)</strong>
-- 📂 Utilisation de MongoDB pour des données non structurées  
-- 📝 **Exercice** : Charger des données depuis MongoDB  
+<ul style="line-height:35px;">
+    <li> 📂 Utilisation de MongoDB pour des données non structurées </li>
+    <li> 📝 Exercice : Charger des données depuis MongoDB </li>
+</ul>
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 6 : Analyse Exploratoire et Visualisation de Données</span>
 
 <details>
 <strong style="font-size: 1.4em;">Session 12 : Analyse Exploratoire des Données avec Pandas (1h30)</strong>
+<ul style="line-height:35px;">
+    <li>📊 Statistiques descriptives et premières visualisations </li>
+    <li>📝 Exercice : Réaliser une analyse exploratoire </li>
+</ul>
 
-- 📊 Statistiques descriptives et premières visualisations  
-- 📝 **Exercice** : Réaliser une analyse exploratoire  
-
-<strong style="font-size: 1.4em;">Session 13 : Visualisation avec Matplotlib & Seaborn (1h30)</strong>
-- 📈 Création de graphiques : lignes, barres, histogrammes, heatmaps  
-- 📝 **Exercice** : Visualiser des données  
+<strong style="font-size: 1.4em;">Session 13 : Visualisation avec Matplotlib, Seaborn & Plotly (1h30)</strong>
+<ul style="line-height:35px;">
+    <li> 📈 Création de graphiques :</li> 
+        <ul style ="line-heigt:30px;">
+            <li> Lignes</li>
+            <li> Barres</li>
+            <li> Histogrammes</li>
+            <li> Heatmaps </li>
+            <li> Diagramme de dipersion </li>
+            <li> Analyse spatiale </li>
+        </ul>
+    <li> 📝 Exercice : Visualiser des données  </li>
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 7 : Création de Tableaux de Bord avec Flask</span>
