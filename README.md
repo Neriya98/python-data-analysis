@@ -32,10 +32,10 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 <strong style="font-size: 1.5em;">Session 2 : Notions de Base en Python - Partie 1 (1h30)</strong> 
 <ul style="line-height: 35px;">
     <li>🛠️ Présentation des outils : Jupyter Notebook, scripts Python</li>
-    <li>🔢 Variables et types de données : 
+    <li>🔢 Variables et types de données :</li> 
         <ul style="line-height:30px;">
-            <li> Découverte des variables, assignation, modification
-            <li> Types de données en Python
+            <li> Découverte des variables, assignation, modification</li>
+            <li> Types de données en Python</li>
         </ul>
     </li>
     <li>📝 Exercice : Créer des scripts pour explorer les structures de données simples</li>
