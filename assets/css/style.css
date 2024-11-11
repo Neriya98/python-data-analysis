@@ -62,7 +62,7 @@ header h1 {
 
 /* --- Badges --- */
 .badge {
-    /*background-color: #3498db;*/
+    background-color: #3498db;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
