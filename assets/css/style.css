@@ -24,7 +24,7 @@ ul, ol {
 }
 
 /* Style pour le contenu */
-.details summary {
+details summary {
     font-size: 1.1em;
     cursor: pointer;
 }
@@ -34,11 +34,23 @@ ul, ol {
     margin-right: 10px; /* Espace entre le logo et le titre */
   }
   
-  header {
-    display: flex;
-    align-items: center;
-  }
-  
-  .page-title {
+.page-title {
     display: none;
   }
+
+  /* Style pour l'en-tête */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  header img {
+    height: 50px; /* Ajuste la taille du logo */
+    margin-right: 10px; /* Espace entre le logo et le titre */
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  

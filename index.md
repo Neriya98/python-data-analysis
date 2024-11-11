@@ -1,17 +1,10 @@
----
-layout: default
-title: "Accueil"
----
+<html>
 
----
-layout: default
-title: "Accueil"
----
 <nav>
   <ul>
     <li><a href="/">Accueil</a></li>
-    <li><a href="/programme">Programme</a></li>
-    <li><a href="/contact">Contact</a></li>
+    <li><a href="/programme.md">Programme</a></li>
+    <li><a href="/contact.md">Contact</a></li>
   </ul>
 </nav>
 
@@ -29,11 +22,11 @@ title: "Accueil"
 [![Formation Badge](https://img.shields.io/badge/Formation-Analyse%20de%20Données%20avec%20Python-blue?style=for-the-badge)](https://github.com/username/repo)
 
 <h2>Objectifs de la Formation</h2>
-
-- **Apprendre Python** : Des bases à l'automatisation
-- **Analyser des Données** : Nettoyage, visualisation et analyse avancée
-- **Créer des Tableaux de Bord** : Suivi et monitoring en temps réel
-
+<p>
+- Apprendre Python : Des bases à l'automatisation
+- Analyser des Données : Nettoyage, visualisation et analyse avancée
+- Créer des Tableaux de Bord : Suivi et monitoring en temps réel
+</p>
 ➡️ [Voir le programme complet](./programme) pour les détails de chaque session.
 
 ---
@@ -48,3 +41,4 @@ _"Le contenu est clair et bien structuré, parfait pour débutants et intermédi
 
 Pour toute question, [contactez-nous](./contact).
 </body>
+</html>
