@@ -1,11 +1,12 @@
 title: "Formation Analyse de Données avec Python"
-theme: minima  # Vous pouvez choisir un autre thème GitHub Pages
-remote_theme: "pages-themes/minimal@v0.2.0" # Autre exemple de thème
+#description: "Un programme complet pour maîtriser l'analyse de données avec Python"
+theme: minima  # Choix d'un thème GitHub Pages (tu peux aussi utiliser ton propre thème)
+remote_theme: "pages-themes/minimal@v0.2.0" # Si tu souhaites un thème minimaliste
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Menu de navigation
+# Configuration du menu de navigation
 header_pages:
   - title: "Accueil"
     url: "/"
@@ -13,17 +14,25 @@ header_pages:
     url: "/programme"
   - title: "Contact"
     url: "/contact"
-    
-# Configuration Jekyll
+
+# Configuration Markdown et Kramdown
 markdown: kramdown
 kramdown:
   input: GFM
 include:
-  - assets/css/style.css
+  - assets/css/style.css  # Inclure ton fichier CSS personnalisé
 
 # Options SEO
 seo:
   title: "Formation Analyse de Données avec Python"
   description: "Apprenez l'analyse de données avec Python, des bases à l'automatisation"
   twitter:
-    username: "votre_nom_twitter"
+    username: "votre_nom_twitter"  # Mets ton nom Twitter si tu veux l'afficher
+
+# Permet d'afficher la page d'accueil de manière personnalisée
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
