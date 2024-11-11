@@ -237,3 +237,8 @@ header .github-info {
     line-height: 28px;
     margin-bottom: 15px;
 }
+
+p {
+    line-height: 28px; /* Ajustez la valeur selon vos besoins, comme 1.5, 1.6, etc. */
+    margin-bottom: 15px; /* Espace entre les paragraphes */
+}
