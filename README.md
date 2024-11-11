@@ -56,8 +56,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
     </ul>
 </ul>
 
-<strong style="font-size: 1.4em;">Session 4 : Notions de Base en Python - Partie 3 (1h30)</strong>
-Les structures de controle
+<strong style="font-size: 1.4em;">Session 4 : Notions de Base en Python - Les strucures de controle (1h30)</strong>
 <ul style="line-height: 35px;">
     <li>🔄 Boucles</li>
     <li> Conditions</li>
@@ -89,7 +88,8 @@ Les structures de controle
 </ul>
 
 <strong style="font-size: 1.4em;"> Session 8 : Séance de pratique sur les bases de python (1h30)</strong>
-📝 Séries d'exercices à pratiquer en live pour maitriser toutes les notions abordées jusque là. 
+<p>📝 Séries d'exercices à pratiquer en live pour maitriser toutes les notions abordées jusque là.</p>
+
 </details>
 
 ## <span style="color:#007acc; font-size:1.5em;">Semaine 4 : Manipulation de Données avec Pandas</span>
