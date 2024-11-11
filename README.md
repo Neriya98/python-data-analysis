@@ -43,19 +43,22 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 </details>
 
 
-## <span style="color:white; font-size:1.6em;">Semaine 2 : Maîtrise des Fondamentaux de Python</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 2 : Maîtrise des Fondamentaux de Python</span>
 
 <details>
 
-<strong style="font-size: 1.1em;">Session 3 : Notions de Base en Python - Partie 2 (1h30)</strong>
-- 📊 Exploration avancée des structures de données : approfondissement des listes, dictionnaires et ensembles
+<strong style="font-size: 1.5em;">Session 3 : Notions de Base en Python - Partie 2 (1h30)</strong>
+<ul style="line-height: 35px;">
+    <li>📊 Exploration avancée des structures de données : approfondissement des listes, dictionnaires et ensembles</li>
+</ul>
 
-<strong style="font-size: 1.1em;">Session 4 : Notions de Base en Python - Partie 3 (1h30)</strong>
+<strong style="font-size: 1.5em;">Session 4 : Notions de Base en Python - Partie 3 (1h30)</strong>
+
 - 🔄 Structures de contrôle : boucles, conditions, et fonctions simples pour automatiser les opérations  
 </details>
 
 
-## <span style="color:#007acc;">Semaine 3 : Fonctions Avancées en Python</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 3 : Fonctions Avancées en Python</span>
 
 <details>
 
@@ -66,7 +69,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 - 📝 **Exercice** : Cas pratiques de manipulation de données avec fonctions personnalisées  
 </details>
 
-## <span style="color:#007acc;">Semaine 4 : Manipulation de Données avec Pandas</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 4 : Manipulation de Données avec Pandas</span>
 <details>
 
 <strong style="font-size: 1.1em;">Session 7 : Chargement et Nettoyage de Données (1h30)</strong>
@@ -79,7 +82,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 - 📝 **Exercice** : Préparer les données d’un jeu de données pour analyse  
 </details>
 
-## <span style="color:#007acc;">Semaine 5 : Acquisition et Gestion de Données Hébergées</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 5 : Acquisition et Gestion de Données Hébergées</span>
 
 <details>
 <strong style="font-size: 1.1em;">Session 10 : Acquisition de Données depuis une Base SQL (1h30)</strong>
@@ -92,7 +95,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 - 📝 **Exercice** : Charger des données depuis MongoDB  
 </details>
 
-## <span style="color:#007acc;">Semaine 6 : Analyse Exploratoire et Visualisation de Données</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 6 : Analyse Exploratoire et Visualisation de Données</span>
 
 <details>
 <strong style="font-size: 1.1em;">Session 12 : Analyse Exploratoire des Données avec Pandas (1h30)</strong>
@@ -105,7 +108,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 - 📝 **Exercice** : Visualiser des données  
 </details>
 
-## <span style="color:#007acc;">Semaine 7 : Création de Tableaux de Bord avec Flask</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 7 : Création de Tableaux de Bord avec Flask</span>
 
 <details>
 
@@ -118,7 +121,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 - 📝 **Exercice** : Créer un tableau de bord  
 </details>
 
-## <span style="color:#007acc;">Semaine 8 : Automatisation de Tâches avec des Scripts Python</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 8 : Automatisation de Tâches avec des Scripts Python</span>
 
 <details>
 
@@ -131,14 +134,14 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 - 📝 **Exercice** : Créer un mini-pipeline d'analyse  
 </details>
 
-## <span style="color:#007acc;">Semaine 9 : Méthodologie d'Analyse de Projet</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 9 : Méthodologie d'Analyse de Projet</span>
 
 <details>
 <strong style="font-size: 1.1em;">Session 19 : Structuration d’un Projet d’Analyse (1h30)</strong>
 - 📝 Structurer un projet d’analyse, planification et organisation  
 </details>
 
-## <span style="color:#007acc;">Semaine 10 : Synthèse et Questions</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 10 : Synthèse et Questions</span>
 
 <details>
 
@@ -146,7 +149,7 @@ Bienvenue dans le programme de formation "Analyse de Données avec Python". Ce p
 - 🎓 Questions et synthèse méthodologique  
 </details>
 
-## <span style="color:#007acc;">Semaine 12 : Soutenance et Présentation du Projet Final</span>
+## <span style="color:#007acc; font-size:1.6em;">Semaine 12 : Soutenance et Présentation du Projet Final</span>
 
 <details>
 
