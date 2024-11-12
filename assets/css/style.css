@@ -249,6 +249,12 @@ ul li, ol li {
     margin-bottom: 10px;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.8;
+}
+
 /* --- Contenu supplémentaire (Details) --- */
 details summary {
     font-size: 1.1em;
@@ -338,7 +344,7 @@ li {
     padding-left: 25px;
 }
 ul li:before {
-    content: '•';
+    content: '+';
     position: absolute;
     left: 0;
     color: #007bff;
