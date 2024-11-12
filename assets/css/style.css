@@ -44,7 +44,7 @@ nav {
     margin-right: 20px; /* Espace entre le menu et le bord */
 }
 
-nav ul {
+header nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
