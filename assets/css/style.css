@@ -345,14 +345,14 @@ li {
 }
 
 ul li:before {
-    content: '+';
+    content: '✦';
     position: absolute;
     left: 0;
     color: #007bff;
     font-size: 18px;
 }
 details summary {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #007bff;
     cursor: pointer;
@@ -373,7 +373,7 @@ details[open] summary:after {
 details ul {
     margin: 0;
     padding-left: 15px;
-    line-height: 1.6;
+    line-height: 35px;
 }
 
 details ul ul li::before{
@@ -381,5 +381,5 @@ details ul ul li::before{
     position: absolute;
     left: 0;
     color: hsl(32, 100%, 50%);
-    font-size: 16px;
+    font-size: 14px;
 }
