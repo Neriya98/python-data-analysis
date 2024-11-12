@@ -24,7 +24,6 @@
     <!-- Animer le texte sur le header-->
     <script>
       const phrases = [
-          'Formation analyse de données avec python 📊',
           'Développez vos compétences en données',
           'Découvrez l’analyse de données avec Python',
           'Maîtrisez Python pour l’analyse de données',
@@ -35,20 +34,24 @@
       function updateText() {
           const dynamicText = document.querySelector('.header-content h1');
   
-          // Réinitialiser l'animation
-          dynamicText.classList.remove('typing');
-          void dynamicText.offsetWidth; // Forcer le reflow pour redémarrer l'animation
-          dynamicText.classList.add('typing');
+          // Retirer la classe pour redémarrer l'animation
+          dynamicText.classList.remove('typing-animation');
   
-          // Mettre à jour le texte
-          dynamicText.textContent = phrases[phraseIndex];
-          phraseIndex = (phraseIndex + 1) % phrases.length;
+          // Mettre à jour le texte après une petite pause pour l'effet de redémarrage
+          setTimeout(() => {
+              dynamicText.textContent = phrases[phraseIndex];
+              dynamicText.classList.add('typing-animation'); // Réappliquer la classe
+  
+              // Passer à la phrase suivante
+              phraseIndex = (phraseIndex + 1) % phrases.length;
+          }, 100); // Délai pour permettre la réinitialisation
       }
   
       // Changer le texte toutes les 4 secondes
       setInterval(updateText, 4000);
       updateText(); // Premier appel
-    </script>
+  </script>
+  
    
   
 
