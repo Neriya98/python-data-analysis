@@ -44,7 +44,7 @@ nav {
     margin-right: 20px; /* Espace entre le menu et le bord */
 }
 
-header nav ul {
+header nav ul li {
     list-style: none;
     display: flex;
     gap: 20px;
@@ -77,8 +77,10 @@ section.welcome {
     justify-content: center;
     height: 90vh; /* Augmente la hauteur de la section welcome */
     overflow: hidden;
+    background-repeat: no-repeat; /* Empêche l'image de se répéter */
 }
 
+/*
 section.welcome::before {
     content: "";
     position: absolute;
@@ -87,10 +89,10 @@ section.welcome::before {
     width: 100%;
     height: 100%;
     background: rgba(0, 123, 255, 0.5);
-    /*background: linear-gradient(135deg, #007bff, #00c6ff);*/
+    /*background: linear-gradient(135deg, #007bff, #00c6ff);
     z-index: 1;
 }
-
+*/
 
 .welcome h1 {
     font-size: 2.5rem;
@@ -374,6 +376,82 @@ details ul ul li::before {
     left: 0;
 }
 
+/* --- Differentiators Section --- */
+.differentiators {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f1f1f1;
+    margin: 40px 0;
+    border-radius: 8px;
+}
+
+.differentiators h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.differentiators p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --- Differentiator Items --- */
+.differentiators-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.differentiator-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.differentiator-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.differentiator-item .icon {
+    background-color: #007bff;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.differentiator-item img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.differentiator-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.differentiator-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
 
 /* --- FAQ --- */
 .faq-item summary {
