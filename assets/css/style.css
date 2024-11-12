@@ -69,57 +69,47 @@ header {
     background: linear-gradient(135deg, #007bff, #00c6ff);
     color: #fff;
     text-align: center;
-    padding: 40px 20px; /* Ajustez la valeur pour augmenter ou réduire l'espace */
+    padding: 40px 20px;
     position: relative;
     overflow: hidden;
-    
-    /*
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centre le contenu verticalement 
-    */
-    
 }
 
-/* --- Fixed Header Text Box --- */
 .header-content h1 {
-    font-size: 3.5rem; /* Ajustez la taille selon vos préférences */
-    height: 100px; /* Hauteur fixe pour empêcher le déplacement */
-    white-space: nowrap; /* Empêche le texte de passer à la ligne */
-    overflow: hidden;
-    color: #d0e1f9;
-    /*border-right: 4px solid #d0e1f9; /* Curseur de saisie */ 
-    display: inline-block;
-    /*animation: typingt 4s steps(30, end), blink-caret 0.7s step-end infinite;*/
+    Animation: fadeInText 3s infinite alternate; /* Animation du texte */
+    font-family: 'Lora', serif; /* Police élégante */
+    font-size: 3.5rem; /* Taille plus grande */
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Ombre subtile */
+    margin: 0;
 }
 
-@keyframes typing {
-    0%, 25% { content: 'Développez vos compétences en données'; width: 0; }
-    25%, 50% { content: 'Découvrez l’analyse de données avec Python'; width: 100%; }
-    50%, 75% { content: 'Maîtrisez Python pour l’analyse de données'; width: 0; }
-    75%, 100% { content: 'Accélérez votre carrière en Data Science'; width: 100%; }
+
+
+.logo {
+    max-width: 100px; /* Ajustez cette valeur selon vos besoins */
 }
 
 .header-content h1 span {
     display: inline-block;
-    color: #d0e1f9;
-    animation: typing 5s infinite;
+    animation: changeText 10s infinite;
 }
 
-/* Animation de saisie */
-
-@keyframes blink-caret {
-    50% { border-color: transparent; }
+@keyframes fadeInText {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Positionnement du logo en haut à gauche */
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    max-width: 120px;
+.header-content h1 span {
+    display: inline-block;
+    animation: changeText 10s infinite;
 }
 
+@keyframes changeText {
+    0%, 25% { content: 'Développez vos compétences en données'; }
+    25%, 50% { content: 'Découvrez l’analyse de données avec Python'; }
+    50%, 75% { content: 'Maîtrisez Python pour l’analyse de données'; }
+    75%, 100% { content: 'Accélérez votre carrière en Data Science'; }
+}
 
 /* --- Navigation --- */
 nav {
@@ -179,7 +169,7 @@ ul li::before {
 
 /* --- Custom Bullet Points for Objectives --- */
 section.objectives li::before {
-    content: "🎯";
+    content: "+";
     color: #007bff;
     font-size: 1.5em;
     margin-right: 10px;
@@ -276,7 +266,6 @@ blockquote {
     background-color: #222;
 }
 
-
 /* --- Differentiators Section --- */
 .differentiators {
     text-align: center;
@@ -354,7 +343,6 @@ blockquote {
     font-family: 'Roboto', sans-serif;
 }
 
-
 /* --- Responsive Design --- */
 @media (max-width: 908px) {
     .container, .main-content {
@@ -365,12 +353,7 @@ blockquote {
         border-bottom: 2px solid #d0e1f9;
     }
     .header-content h1 {
-        font-size: 1.8em;
-        font-weight: 800;
-        height: auto; /* Supprime la hauteur fixe pour éviter les coupures */
-        white-space: normal;
-        align-items: center;
-        margin: 0; /* Supprime le margin pour éviter tout décalage */
+        font-size: 2.8rem; /* Taille plus grande */
     }
     .differentiators-content {
         flex-direction: column;
@@ -382,4 +365,3 @@ blockquote {
         margin-bottom: 20px;
     }
 }
-
