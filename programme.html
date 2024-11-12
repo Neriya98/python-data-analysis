@@ -5,6 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programme de Formation - Analyse de Données avec Python</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+        li:before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #007bff;
+            font-size: 18px;
+        }
+        details summary {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007bff;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+        details summary:after {
+            content: "+";
+            font-size: 18px;
+            color: #007bff;
+            margin-left: 10px;
+        }
+        details[open] summary:after {
+            content: "−";
+        }
+        details ul {
+            margin: 0;
+            padding-left: 15px;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
 
