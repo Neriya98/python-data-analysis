@@ -1,22 +1,31 @@
-/* --- Mode Nuit Global Styles --- */
+/* --- Global Styles --- */
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #e0e0e0; /* Texte en gris clair */
-    background-color: #121212; /* Fond sombre */
+    font-family: 'Roboto', sans-serif; /* Police moderne */
+    color: #c9d1d9; /* Gris clair pour le texte */
+    background-color: #0d1117; /* Fond gris très foncé */
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif; /* Police attrayante pour les titres */
-    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff; /* Blanc pour les titres */
+}
+
+a {
+    color: #58a6ff; /* Bleu GitHub pour les liens */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1f6feb; /* Bleu plus intense au survol */
 }
 
 /* --- Header --- */
 header {
-    background: linear-gradient(135deg, #282828, #333);
-    color: #fff;
+    background-color: #161b22; /* Fond sombre pour le header */
+    color: #ffffff;
     text-align: center;
     padding: 60px 20px;
     position: relative;
@@ -24,7 +33,7 @@ header {
 }
 
 header h1 {
-    font-size: 3.5rem; /* Texte en grand pour captiver */
+    font-size: 3rem;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
@@ -32,28 +41,83 @@ header h1 {
 
 /* --- Navigation Menu --- */
 nav {
-    background: #1c1c1c;
+    background-color: #161b22;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 nav a {
-    color: #e0e0e0;
+    color: #c9d1d9;
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffcc00;
+    color: #58a6ff;
 }
 
-/* --- Bullets Stylisées et Liens --- */
+/* --- Bullets stylisées --- */
 ul li::before {
-    content: '✦';
-    color: #00adb5;
-    font-size: 18px;
+    content: '•';
+    color: #58a6ff;
+    margin-right: 10px;
+    font-size: 1.2em;
 }
 
-a {
-    color: #3498db;
+/* --- Sections --- */
+section {
+    margin: 40px 0;
+    color: #c9d1d9; /* Gris clair pour le texte de section */
 }
 
-a:hover {
-    color: #ffcc00;
+section h2 {
+    font-size: 1.8rem;
+    color: #e6edf3;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
+}
+
+/* --- FAQ Items --- */
+.faq-item summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #21262d;
+    color: #c9d1d9;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    color: #58a6ff;
+}
+
+.faq-item[open] summary::after {
+    content: "-";
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #161b22;
+    color: #8b949e;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #30363d;
+}
+
+footer a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #1f6feb;
 }
