@@ -289,5 +289,6 @@ blockquote {
     .header-content h1 {
         font-size: 2.8rem; /* Taille plus grande */
         height: 90px;
+        white-space: normal;
     }
 }
