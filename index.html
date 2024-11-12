@@ -23,18 +23,19 @@
 
     <!-- Animer le texte sur le header-->
     <script>
-        const phrases = [
-            'Développez vos compétences en données',
-            'Découvrez l’analyse de données avec Python',
-            'Maîtrisez Python pour l’analyse de données',
-            'Accélérez votre carrière en Data Science'
-        ];
-        let phraseIndex = 0;
-        setInterval(() => {
-            document.getElementById('dynamic-text').textContent = phrases[phraseIndex];
-            phraseIndex = (phraseIndex + 1) % phrases.length;
-        }, 3000); // Changement toutes les 3 secondes
-    </script>
+      const phrases = [
+          'Développez vos compétences en données',
+          'Découvrez l’analyse de données avec Python',
+          'Maîtrisez Python pour l’analyse de données',
+          'Accélérez votre carrière en Data Science'
+      ];
+      let phraseIndex = 0;
+      setInterval(() => {
+          document.getElementById('dynamic-text').textContent = phrases[phraseIndex];
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+      }, 4000); // Change every 4 seconds
+  </script>
+  
 
     <!-- Section principale -->
     <main>
