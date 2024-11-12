@@ -21,17 +21,27 @@ h1, h2, h3, .page-title {
 
 /* --- Header --- */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
     background: linear-gradient(135deg, #007bff, #00c6ff);
     color: #fff;
+    text-align: center;
+    padding: 20px 20px; /* Diminue le padding pour réduire la taille */
+    position: relative;
+    overflow: hidden;
+    height: 60px; /* Diminue la hauteur */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
 }
 
-.logo {
-    height: 50px;
-    margin-right: 20px;
+/* --- Logo et Navigation dans le Header --- */
+header .logo {
+    height: 40px;
+    margin-left: 20px; /* Espace entre le logo et le bord */
+}
+
+nav {
+    margin-right: 20px; /* Espace entre le menu et le bord */
 }
 
 nav ul {
@@ -52,10 +62,10 @@ nav a:hover {
     color: #ffcc00;
 }
 
-/* --- Intro Section --- */
+/* --- Welcome Section --- */
 .welcome {
     position: relative;
-    background-image: url('background.jpg'); /* Remplacer avec le chemin de votre image */
+    background-image: url('./assets/images/formation-python-david-akpovi-background.jpg'); /* Remplacer avec le chemin de votre image */
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
@@ -81,6 +91,62 @@ nav a:hover {
     position: relative;
     z-index: 1;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Style pour la section d'accueil */
+.intro-section {
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.intro-section h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.intro-section p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.pain-points, .training-objectives {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.pain-points li, .training-objectives li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.pain-points li strong {
+    color: #007bff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
 }
 
 /* --- Lists --- */
