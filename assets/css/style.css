@@ -176,6 +176,16 @@ section.objectives li::before {
     margin-right: 10px;
 }
 
+/*--- Section welcome --- */
+section.welcome {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
 /* --- FAQ --- */
 .faq-item summary {
     font-weight: bold;
