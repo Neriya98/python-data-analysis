@@ -81,9 +81,9 @@ header {
     white-space: nowrap; /* Empêche le texte de passer à la ligne */
     overflow: hidden;
     color: #d0e1f9;
-    border-right: 4px solid #000000; /* Curseur de saisie */
+    border-right: 4px solid #d0e1f9; /* Curseur de saisie */
     display: inline-block;
-    animation: typing 4s steps(30, end), blink-caret 0.7s step-end infinite;
+    /*animation: typing 4s steps(30, end), blink-caret 0.7s step-end infinite;*/
 }
 
 @keyframes typing {
@@ -96,18 +96,10 @@ header {
 .header-content h1 span {
     display: inline-block;
     color: #d0e1f9;
-    animation: typing 10s infinite;
+    animation: typing 5s infinite;
 }
 
 /* Animation de saisie */
-.typing {
-    animation: typing 3s steps(30, end), blink-caret 0.7s step-end infinite;
-}
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
 
 @keyframes blink-caret {
     50% { border-color: transparent; }
@@ -288,7 +280,7 @@ blockquote {
     }
     .header-content h1 {
         font-size: 2.8rem; /* Taille plus grande */
-        height: 90px;
+        height: auto;
         white-space: normal;
     }
 }
