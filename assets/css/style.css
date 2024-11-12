@@ -176,21 +176,76 @@ section.objectives li::before {
     margin-right: 10px;
 }
 
-/*--- Section welcome --- */
+/* Welcome Section with Background Image and Overlay */
 section.welcome {
-    background: linear-gradient(135deg, #007bff, #00c6ff);
+    position: relative;
+    background-image: url('2.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
-    padding: -40px 20px;
-    position: relative;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajustez la hauteur selon vos préférences */
     overflow: hidden;
-    height: 500px;
+    /*   height: 500px;*/
 }
 
-section.welcome h1 span{
-    font-size: 90px;
-    color: #d0e1f9;
+/* Lueur de couleur sur l'image */
+section.welcome::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Couche sombre pour l'effet de texte sombre */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.8)
+    ); /* Gradient pour une lueur subtile */
+    z-index: 1;
 }
+
+/* Styling the Text */
+.welcome-content {
+    position: relative;
+    z-index: 2; /* Assure le texte au-dessus de la lueur */
+    max-width: 800px;
+    color: #f0f0f0;
+    font-family: 'Lora', serif; /* Polices stylisées */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Effet d'ombre sur le texte */
+}
+
+.welcome-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.welcome-content p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .welcome-content h1 {
+        font-size: 2.2rem;
+    }
+    .welcome-content p {
+        font-size: 1.1rem;
+    }
+}
+
+
+/* Supprimer tout espace entre header et section.welcome */
+header + section.welcome {
+    margin-top: 0;
+}
+
+
 /* --- FAQ --- */
 .faq-item summary {
     font-weight: bold;
