@@ -73,6 +73,7 @@ header {
     position: relative;
     overflow: hidden;
     height: 15px;
+    margin-bottom: 0;
 }
 
 .header-content h1 {
@@ -188,7 +189,7 @@ section.welcome {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Ajustez la hauteur selon vos préférences */
+    height: 80vh; /* Ajustez la hauteur selon vos préférences */
     overflow: hidden;
     /*   height: 500px;*/
 }
@@ -203,7 +204,7 @@ section.welcome::before {
     height: 100%;
     background: rgba(0, 0, 0, 0.5); /* Couche sombre pour l'effet de texte sombre */
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
+        rgba(52, 49, 206, 0.4), 
         rgba(0, 0, 0, 0.8)
     ); /* Gradient pour une lueur subtile */
     z-index: 1;
