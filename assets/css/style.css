@@ -1,255 +1,59 @@
-/* --- Global Styles --- */
+/* --- Mode Nuit Global Styles --- */
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    color: #e0e0e0; /* Texte en gris clair */
+    background-color: #121212; /* Fond sombre */
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
-h1, h2, h3, .page-title {
-    font-family: 'Arial', sans-serif;
-    color: #2C3E50;
-}
-
-h1 {
-    font-size: 1.6em;
-}
-
-h2 {
-    font-size: 1.5em;
-    color: #333;
-    border-bottom: 2px solid #d0e1f9;
-    padding-bottom: 5px;
-}
-
-h3 {
-    font-size: 1.3em;
-    color: #e63946;
-}
-
-a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-a:hover, .cta-link:hover {
-    color: #ffcc00;
-}
-
-/* --- Container --- */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.container:hover {
-    transform: scale(1.01);
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Police attrayante pour les titres */
+    color: #fff;
 }
 
 /* --- Header --- */
 header {
-    background: linear-gradient(135deg, #007bff, #00c6ff);
+    background: linear-gradient(135deg, #282828, #333);
     color: #fff;
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
     position: relative;
     overflow: hidden;
 }
 
-.header-content h1 {
-    font-size: 1.8em; /* Réduire la taille du texte */
-}
-.logo {
-    max-width: 100px; /* Ajustez cette valeur selon vos besoins */
-}
-
-
-@keyframes fadeInText {
-    0% { opacity: 0; transform: translateY(-20px); }
-    100% { opacity: 1; transform: translateY(0); }
+header h1 {
+    font-size: 3.5rem; /* Texte en grand pour captiver */
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
 }
 
-.header-content h1 span {
-    display: inline-block;
-    animation: changeText 10s infinite;
-}
-
-@keyframes changeText {
-    0%, 25% { content: 'Développez vos compétences en données'; }
-    25%, 50% { content: 'Découvrez l’analyse de données avec Python'; }
-    50%, 75% { content: 'Maîtrisez Python pour l’analyse de données'; }
-    75%, 100% { content: 'Accélérez votre carrière en Data Science'; }
-}
-
-/* --- Navigation --- */
+/* --- Navigation Menu --- */
 nav {
-    display: flex;
-    justify-content: center;
-    background: #333;
-    padding: 10px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+    background: #1c1c1c;
 }
 
 nav a {
-    color: #fff;
-    font-weight: bold;
+    color: #e0e0e0;
 }
 
 nav a:hover {
     color: #ffcc00;
 }
 
-/* --- Sections --- */
-section {
-    margin: 40px 0;
-}
-
-.section-content p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
-
-/* --- Lists --- */
-ul, ol {
-    list-style: none; /* Désactive les puces par défaut */
-    padding-left: 0; /* Supprime le retrait */
-    line-height: 35px;
-}
-
-li {
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 25px;
-}
-
-
+/* --- Bullets Stylisées et Liens --- */
 ul li::before {
-    content: '✦'; /* Custom puce */
-    position: absolute;
-    left: 0;
-    color: #007bff;
+    content: '✦';
+    color: #00adb5;
     font-size: 18px;
 }
 
-
-/* --- Custom Bullet Points for Objectives --- */
-section.objectives li::before {
-    content: "+";
-    color: #007bff;
-    font-size: 1.5em;
-    margin-right: 10px;
+a {
+    color: #3498db;
 }
 
-/* --- FAQ --- */
-.faq-item summary {
-    font-weight: bold;
-    cursor: pointer;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
-    position: relative;
-}
-
-.faq-item summary::after {
-    content: "+";
-    position: absolute;
-    right: 20px;
-    font-weight: bold;
-}
-
-.faq-item[open] summary::after {
-    content: "-";
-}
-
-/* --- Details Dropdown --- */
-details summary {
-    font-size: 16px;
-    font-weight: bold;
-    color: #007bff;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-}
-
-details summary::after {
-    content: "+";
-    font-size: 18px;
-    color: #007bff;
-    margin-left: 10px;
-}
-
-details[open] summary::after {
-    content: "−";
-}
-
-details ul {
-    margin: 0;
-    padding-left: 15px;
-    line-height: 35px;
-}
-
-details ul ul li::before {
-    content: '➤';
-    color: hsl(32, 100%, 50%);
-    font-size: 14px;
-    position: absolute;
-    left: 0;
-}
-
-/* --- Footer --- */
-footer {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-/* --- Additional Styles --- */
-.badge {
-    background-color: #3498db;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-blockquote {
-    font-style: italic;
-    color: #555;
-    margin: 15px 0;
-    padding-left: 15px;
-    border-left: 3px solid #0056b3;
-}
-
-.section.testimonials blockquote {
-    margin: 20px 0;
-    padding: 10px;
-    border-left: 4px solid #3498db;
-    background-color: #222;
-}
-
-/* --- Responsive Design --- */
-@media (max-width: 908px) {
-    .container, .main-content {
-        padding: 10px;
-    }
-    h2 {
-        font-size: 1.4em;
-        border-bottom: 2px solid #d0e1f9;
-    }
+a:hover {
+    color: #ffcc00;
 }
