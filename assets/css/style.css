@@ -84,13 +84,24 @@ header {
     display: inline-block;
     animation: typing 4s steps(30, end), blink-caret 0.7s step-end infinite;
 }
-
+/*
 @keyframes typing {
     0%, 25% { content: 'Développez vos compétences en données'; width: 0; }
     25%, 50% { content: 'Découvrez l’analyse de données avec Python'; width: 100%; }
     50%, 75% { content: 'Maîtrisez Python pour l’analyse de données'; width: 0; }
     75%, 100% { content: 'Accélérez votre carrière en Data Science'; width: 100%; }
 }
+    */
+
+/* Animation de saisie */
+.typing {
+    animation: typing 3s steps(30, end), blink-caret 0.7s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
 
 @keyframes blink-caret {
     50% { border-color: transparent; }

@@ -16,7 +16,7 @@
     <header>
         <div class="header-content">
             <img src="./assets/images/Sans_fond_1.png" alt="Logo" class="logo" />
-            <h1 id="dynamic-text">Formation analyse de données avec python 📊</h1>
+            <h1 class="typing">Formation analyse de données avec python 📊</h1>
         </div>
                 
     </header>
@@ -24,17 +24,32 @@
     <!-- Animer le texte sur le header-->
     <script>
       const phrases = [
+          'Formation analyse de données avec python 📊'
           'Développez vos compétences en données',
           'Découvrez l’analyse de données avec Python',
           'Maîtrisez Python pour l’analyse de données',
           'Accélérez votre carrière en Data Science'
       ];
       let phraseIndex = 0;
-      setInterval(() => {
-          document.getElementById('dynamic-text').textContent = phrases[phraseIndex];
+  
+      function updateText() {
+          const dynamicText = document.querySelector('.header-content h1');
+  
+          // Réinitialiser l'animation
+          dynamicText.classList.remove('typing');
+          void dynamicText.offsetWidth; // Forcer le reflow pour redémarrer l'animation
+          dynamicText.classList.add('typing');
+  
+          // Mettre à jour le texte
+          dynamicText.textContent = phrases[phraseIndex];
           phraseIndex = (phraseIndex + 1) % phrases.length;
-      }, 4000); // Change every 4 seconds
-  </script>
+      }
+  
+      // Changer le texte toutes les 4 secondes
+      setInterval(updateText, 4000);
+      updateText(); // Premier appel
+    </script>
+   
   
 
     <!-- Section principale -->
