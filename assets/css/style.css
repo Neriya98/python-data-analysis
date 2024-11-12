@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 /* --- Intro Section --- */
-.intro-section {
+.welcome {
     position: relative;
     background-image: url('background.jpg'); /* Remplacer avec le chemin de votre image */
     background-size: cover;
@@ -63,7 +63,7 @@ nav a:hover {
     text-align: center;
 }
 
-.intro-section::before {
+.welcome::before {
     content: "";
     position: absolute;
     top: 0;
@@ -74,7 +74,7 @@ nav a:hover {
     z-index: 0;
 }
 
-.intro-section h1 {
+.welcome h1 {
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
@@ -131,7 +131,7 @@ footer {
         align-items: center;
     }
     
-    .intro-section h1 {
+    .welcome h1 {
         font-size: 2rem;
     }
 }
