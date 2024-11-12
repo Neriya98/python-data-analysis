@@ -1,6 +1,6 @@
 /* --- Global Styles --- */
 body {
-    font-family: 'Poppins', sans-serif; /* Police moderne et joviale */
+    font-family: 'Poppins', sans-serif;
     color: #333;
     background-color: #f8f9fa;
     margin: 0;
@@ -8,14 +8,49 @@ body {
     line-height: 1.6;
 }
 
+h1, h2, h3, .page-title {
+    font-family: 'Arial', sans-serif;
+    color: #2C3E50;
+}
 
-/* --- Container Central --- */
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #d0e1f9;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #e63946;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover, .cta-link:hover {
+    color: #ffcc00;
+}
+
+/* --- Container --- */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.01);
 }
 
 /* --- Header --- */
@@ -28,30 +63,9 @@ header {
     overflow: hidden;
 }
 
-header img {
-    height: 10px; /* Logo taille ajustée */
-    margin-right: 10px;
-}
-
-header h1 {
-    font-size: 3rem;
-    color: #fff; /* Couleur du titre */
-}
-
-/* En-tête */
-.header-content {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.logo {
-    max-width: 200px;
-}
-
-
 .header-content h1 {
     font-size: 2.5rem;
-    animation: fadeInText 3s infinite alternate; /* Animation du texte */
+    animation: fadeInText 3s infinite alternate;
 }
 
 @keyframes fadeInText {
@@ -71,8 +85,7 @@ header h1 {
     75%, 100% { content: 'Accélérez votre carrière en Data Science'; }
 }
 
-
-/* --- Navigation Menu --- */
+/* --- Navigation --- */
 nav {
     display: flex;
     justify-content: center;
@@ -88,27 +101,11 @@ nav ul {
 
 nav a {
     color: #fff;
-    text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
 }
 
 nav a:hover {
     color: #ffcc00;
-}
-
-/* --- Custom Bullet Points --- */
-section.objectives ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-section.objectives li::before {
-    content: "+";
-    color: #007bff; /* Couleur de puce personnalisée */
-    font-size: 1.5em;
-    margin-right: 10px;
-    vertical-align: middle;
 }
 
 /* --- Sections --- */
@@ -116,18 +113,40 @@ section {
     margin: 40px 0;
 }
 
-section h2 {
-    font-size: 1.8rem;
-    color: #2c3e50;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
-}
-
 .section-content p {
     font-size: 1.1rem;
     line-height: 1.8;
 }
 
+/* --- Lists --- */
+ul, ol {
+    line-height: 1.8;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+ul li::before {
+    content: '✦';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-size: 18px;
+}
+
+/* --- Custom Bullet Points for Objectives --- */
+section.objectives li::before {
+    content: "+";
+    color: #007bff;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* --- FAQ --- */
 .faq-item summary {
     font-weight: bold;
     cursor: pointer;
@@ -135,7 +154,6 @@ section h2 {
     background-color: #007bff;
     color: #fff;
     border-radius: 5px;
-    margin-top: 10px;
     position: relative;
 }
 
@@ -150,207 +168,7 @@ section h2 {
     content: "-";
 }
 
-/* --- Animations --- */
-.container, nav, .faq-item summary {
-    transition: all 0.3s ease-in-out;
-}
-
-.container:hover {
-    transform: scale(1.01);
-}
-
-
-
-
-/* Liens */
-a {
-    color: #3498db; /* Bleu pour les liens */
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ffcc00; /* Changer la couleur des liens au survol */
-}
-
-/* Responsive mode */
-@media (max-width: 908px) {
-    .main-content {
-        max-width: 100%;
-        padding: 10px;
-    }
-    h2 {
-        color: #333;
-        font-size: 1.4em;
-        border-bottom: 2px solid #d0e1f9;
-        padding-bottom: 5px;
-    }
-    
-    h3 {
-        color: #e63946;
-        font-size: 1.2em;
-    }
-
-    p {
-        line-height: 28px; /* Ajustez la valeur selon vos besoins, comme 1.5, 1.6, etc. */
-        margin-bottom: 15px; /* Espace entre les paragraphes */
-    }
-}
-
-/* --- Badges --- */
-.badge {
-    background-color: #3498db;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-
-/* Témoignages */
-blockquote {
-    font-style: italic;
-    color: #555;
-    margin: 15px 0;
-    padding-left: 15px;
-    border-left: 3px solid #0056b3;
-}
-
-/* --- Titres --- */
-h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
-    color: #2C3E50;
-}
-h1{
-    font-size: 1.6em;
-}
-
-h2 {
-    color: #333;
-    font-size: 1.5em;
-    border-bottom: 2px solid #d0e1f9;
-    padding-bottom: 5px;
-}
-
-h3 {
-    color: #e63946;
-    font-size: 1.3em;
-}
-
-.page-title {
-    color: #3498db;
-}
-
-/* --- Listes --- */
-ul, ol {
-    line-height: 1.8;
-}
-
-ul li, ol li {
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.8;
-}
-
-/* --- Contenu supplémentaire (Details) --- */
-details summary {
-    font-size: 1.1em;
-    cursor: pointer;
-}
-
-/* --- Footer --- */
-footer {
-    background-color: #222; /* Fond sombre pour le footer */
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-footer .github-info {
-    display: none;
-}
-
-
-
-/* --- Sections spécifiques --- */
-section.welcome {
-    text-align: center;
-    color: #d0e1f9;
-}
-
-section.objectives {
-    margin-top: 40px;
-}
-
-section.objectives ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-section.objectives li {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-}
-
-section.testimonials {
-    margin-top: 40px;
-    font-style: italic;
-}
-
-section.testimonials blockquote {
-    margin: 20px 0;
-    padding: 10px;
-    border-left: 4px solid #3498db;
-    background-color: #222;
-}
-
-/* --- Classes utilitaires --- */
-.cta-link {
-    color: #3498db;
-    font-weight: bold;
-}
-
-.cta-link:hover {
-    color: #ffcc00;
-}
-
-/* --- Masquer la section footer GitHub --- */
-footer .github-info {
-    display: none;
-}
-
-header .github-info {
-    display: none;
-}
-
-.welcome p {
-    line-height: 28px;
-    margin-bottom: 15px;
-}
-
-p {
-    line-height: 28px; /* Ajustez la valeur selon vos besoins, comme 1.5, 1.6, etc. */
-    margin-bottom: 15px; /* Espace entre les paragraphes */
-}
-
-
-li {
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 25px;
-}
-
-ul li:before {
-    content: '✦';
-    position: absolute;
-    left: 0;
-    color: #007bff;
-    font-size: 18px;
-}
+/* --- Details Dropdown --- */
 details summary {
     font-size: 16px;
     font-weight: bold;
@@ -361,25 +179,71 @@ details summary {
     align-items: center;
     padding: 10px 0;
 }
-details summary:after {
+
+details summary::after {
     content: "+";
     font-size: 18px;
     color: #007bff;
     margin-left: 10px;
 }
-details[open] summary:after {
+
+details[open] summary::after {
     content: "−";
 }
+
 details ul {
     margin: 0;
     padding-left: 15px;
     line-height: 35px;
 }
 
-details ul ul li::before{
+details ul ul li::before {
     content: '➤';
-    position: absolute;
-    left: 0;
     color: hsl(32, 100%, 50%);
     font-size: 14px;
+    position: absolute;
+    left: 0;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* --- Additional Styles --- */
+.badge {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+    padding-left: 15px;
+    border-left: 3px solid #0056b3;
+}
+
+.section.testimonials blockquote {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #3498db;
+    background-color: #222;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 908px) {
+    .container, .main-content {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.4em;
+        border-bottom: 2px solid #d0e1f9;
+    }
 }
