@@ -343,6 +343,14 @@ li {
     position: relative;
     padding-left: 25px;
 }
+ul li li::before{
+    content: '➤';
+    position: absolute;
+    left: 0;
+    color: hsl(32, 100%, 50%);
+    font-size: 16px;
+}
+
 ul li:before {
     content: '+';
     position: absolute;
