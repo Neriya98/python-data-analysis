@@ -36,7 +36,7 @@ header {
 
 /* --- Logo et Navigation dans le Header --- */
 header .logo {
-    height: 40px;
+    height: 70px;
     margin-left: 20px; /* Espace entre le logo et le bord */
 }
 
@@ -57,7 +57,6 @@ header nav ul li {
     display: flex;            /* Aligne les liens horizontalement */
     gap: 20px;                /* Espacement entre les éléments */
     justify-content: center;  /* Centre les liens dans la barre de navigation */
-    background-color: #333;   /* Couleur de fond du menu */
     padding: 10px;
 }
 
@@ -73,9 +72,6 @@ header nav ul li {
 
 /* Style au survol des liens */
 .navbar a:hover {
-    background-color: #555;  /* Change le fond des liens au survol */
-}
-.navbar a:hover {
     color: #ffcc00;
 }
 
@@ -83,7 +79,7 @@ header nav ul li {
 
 section.welcome {
     position: relative;
-    background-image: url('./assets/images/formation-python-david-akpovi-background.jpg');
+    background-image: url('./assets/images/formation-python-david-akpovi-background.jpg') !important;
     background-size: cover;
     background-position: center;
     color: #fff;
