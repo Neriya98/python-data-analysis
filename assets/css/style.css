@@ -74,40 +74,36 @@ header {
     overflow: hidden;
 }
 
+/* --- Fixed Header Text Box --- */
 .header-content h1 {
-    Animation: fadeInText 3s infinite alternate; /* Animation du texte */
-    font-family: 'Lora', serif; /* Police élégante */
-    font-size: 3rem; /* Taille plus grande */
-    color: #fff;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Ombre subtile */
-    margin: 0;
+    font-size: 2.5rem; /* Ajustez la taille selon vos préférences */
+    height: 50px; /* Hauteur fixe pour empêcher le déplacement */
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+    overflow: hidden;
+    border-right: 4px solid #fff; /* Curseur de saisie */
+    display: inline-block;
+    animation: typing 4s steps(30, end), blink-caret 0.7s step-end infinite;
 }
 
+@keyframes typing {
+    0%, 25% { content: 'Développez vos compétences en données'; width: 0; }
+    25%, 50% { content: 'Découvrez l’analyse de données avec Python'; width: 100%; }
+    50%, 75% { content: 'Maîtrisez Python pour l’analyse de données'; width: 0; }
+    75%, 100% { content: 'Accélérez votre carrière en Data Science'; width: 100%; }
+}
+
+@keyframes blink-caret {
+    50% { border-color: transparent; }
+}
+
+/* Positionnement du logo en haut à gauche */
 .logo {
-    max-width: 100px; /* Ajustez cette valeur selon vos besoins */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 80px;
 }
 
-.header-content h1 span {
-    display: inline-block;
-    animation: changeText 10s infinite;
-}
-
-@keyframes fadeInText {
-    0% { opacity: 0; transform: translateY(-20px); }
-    100% { opacity: 1; transform: translateY(0); }
-}
-
-.header-content h1 span {
-    display: inline-block;
-    animation: changeText 10s infinite;
-}
-
-@keyframes changeText {
-    0%, 25% { content: 'Développez vos compétences en données'; }
-    25%, 50% { content: 'Découvrez l’analyse de données avec Python'; }
-    50%, 75% { content: 'Maîtrisez Python pour l’analyse de données'; }
-    75%, 100% { content: 'Accélérez votre carrière en Data Science'; }
-}
 
 /* --- Navigation --- */
 nav {
