@@ -337,7 +337,7 @@ li {
     position: relative;
     padding-left: 25px;
 }
-li:before {
+ul li:before {
     content: '•';
     position: absolute;
     left: 0;
