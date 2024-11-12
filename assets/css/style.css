@@ -561,6 +561,70 @@ section.pricing {
 }
 
 
+/* Programme de formation avec onglets */
+.training-program {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.training-program h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+.tab-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active {
+    background-color: #0056b3;
+}
+
+.tab-button:hover {
+    background-color: #0056b3;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-item {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-item.active {
+    display: block;
+}
+
 
 /* --- Responsive Design --- */
 @media (max-width: 908px) {
