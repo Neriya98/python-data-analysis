@@ -280,7 +280,9 @@ blockquote {
     }
     .header-content h1 {
         font-size: 1.8em; /* Taille plus grande */
-        height: 100px;
+        font-weight: 800;
+        height: 150px;
         white-space: normal;
+        align-items: center;
     }
 }
