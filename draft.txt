@@ -1,0 +1,9 @@
+      <section class="objectives">
+        <h2>Objectifs de la Formation</h2>
+        <ul>
+          <li><strong>Apprendre Python :</strong> Des bases à l'automatisation</li>
+          <li><strong>Analyser des Données :</strong> Nettoyage, visualisation et analyse avancée</li>
+          <li><strong>Créer des Tableaux de Bord :</strong> Suivi et monitoring en temps réel</li>
+        </ul>
+        <p><a href="./programme" class="cta-link">➡️ Voir le programme complet</a> pour les détails de chaque session.</p>
+      </section>
