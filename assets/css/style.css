@@ -343,7 +343,7 @@ li {
     position: relative;
     padding-left: 25px;
 }
-ul li li::before{
+ul ul li::before{
     content: '➤';
     position: absolute;
     left: 0;
