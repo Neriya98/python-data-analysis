@@ -69,21 +69,24 @@ header {
     background: linear-gradient(135deg, #007bff, #00c6ff);
     color: #fff;
     text-align: center;
-    padding: 40px 20px;
+    padding: 80px 20px; /* Ajustez la valeur pour augmenter ou réduire l'espace */
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre le contenu verticalement */
 }
 
 /* --- Fixed Header Text Box --- */
 .header-content h1 {
-    font-size: 2.5rem; /* Ajustez la taille selon vos préférences */
-    height: 70px; /* Hauteur fixe pour empêcher le déplacement */
+    font-size: 3.5rem; /* Ajustez la taille selon vos préférences */
+    height: 100px; /* Hauteur fixe pour empêcher le déplacement */
     white-space: nowrap; /* Empêche le texte de passer à la ligne */
     overflow: hidden;
     color: #d0e1f9;
-    border-right: 4px solid #d0e1f9; /* Curseur de saisie */
+    /*border-right: 4px solid #d0e1f9; /* Curseur de saisie */ 
     display: inline-block;
-    /*animation: typing 4s steps(30, end), blink-caret 0.7s step-end infinite;*/
+    /*animation: typingt 4s steps(30, end), blink-caret 0.7s step-end infinite;*/
 }
 
 @keyframes typing {
@@ -110,7 +113,7 @@ header {
     position: absolute;
     top: 20px;
     left: 20px;
-    max-width: 80px;
+    max-width: 120px;
 }
 
 
@@ -279,10 +282,11 @@ blockquote {
         border-bottom: 2px solid #d0e1f9;
     }
     .header-content h1 {
-        font-size: 1.8em; /* Taille plus grande */
+        font-size: 1.8em;
         font-weight: 800;
-        height: 150px;
+        height: auto; /* Supprime la hauteur fixe pour éviter les coupures */
         white-space: normal;
         align-items: center;
+        margin: 0; /* Supprime le margin pour éviter tout décalage */
     }
 }
