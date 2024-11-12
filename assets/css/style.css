@@ -52,13 +52,30 @@ header nav ul li {
     padding: 0;
 }
 
-nav a {
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
+/* Styles pour la barre de navigation */
+.navbar {
+    display: flex;            /* Aligne les liens horizontalement */
+    gap: 20px;                /* Espacement entre les éléments */
+    justify-content: center;  /* Centre les liens dans la barre de navigation */
+    background-color: #333;   /* Couleur de fond du menu */
+    padding: 10px;
 }
 
-nav a:hover {
+/* Styles pour chaque lien de navigation */
+.navbar a {
+    text-decoration: none;   /* Supprime le soulignement des liens */
+    color: white;            /* Couleur du texte */
+    font-weight: bold;       /* Met le texte en gras */
+    padding: 5px 10px;       /* Ajoute de l’espace autour des liens */
+    border-radius: 5px;      /* Ajoute des coins arrondis */
+    transition: background-color 0.3s; /* Animation sur survol */
+}
+
+/* Style au survol des liens */
+.navbar a:hover {
+    background-color: #555;  /* Change le fond des liens au survol */
+}
+.navbar a:hover {
     color: #ffcc00;
 }
 
