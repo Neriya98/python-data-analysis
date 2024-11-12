@@ -72,6 +72,7 @@ header {
     padding: 40px 20px;
     position: relative;
     overflow: hidden;
+    height: 35px;
 }
 
 .header-content h1 {
