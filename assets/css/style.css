@@ -330,3 +330,41 @@ p {
     line-height: 28px; /* Ajustez la valeur selon vos besoins, comme 1.5, 1.6, etc. */
     margin-bottom: 15px; /* Espace entre les paragraphes */
 }
+
+
+li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-size: 18px;
+}
+details summary {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+details summary:after {
+    content: "+";
+    font-size: 18px;
+    color: #007bff;
+    margin-left: 10px;
+}
+details[open] summary:after {
+    content: "−";
+}
+details ul {
+    margin: 0;
+    padding-left: 15px;
+    line-height: 1.6;
+}
