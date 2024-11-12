@@ -72,7 +72,7 @@ header {
     padding: 40px 20px;
     position: relative;
     overflow: hidden;
-    height: 35px;
+    height: 15px;
 }
 
 .header-content h1 {
@@ -181,10 +181,15 @@ section.welcome {
     background: linear-gradient(135deg, #007bff, #00c6ff);
     color: #fff;
     text-align: center;
-    padding: 40px 20px;
+    padding: -40px 20px;
     position: relative;
     overflow: hidden;
-    height: 200px;
+    height: 800px;
+}
+
+section.welcome h1 span{
+    font-size: 90px;
+    color: #d0e1f9;
 }
 /* --- FAQ --- */
 .faq-item summary {
