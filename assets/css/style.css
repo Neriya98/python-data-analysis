@@ -87,7 +87,7 @@ header {
 
 
 .logo {
-    height: 20px; /* Logo taille ajustée */
+    height: 40px; /* Logo taille ajustée */
     margin-right: 10px;
     /*max-width: 100px;  Ajustez cette valeur selon vos besoins */
 }
@@ -100,11 +100,6 @@ header {
 @keyframes fadeInText {
     0% { opacity: 0; transform: translateY(-20px); }
     100% { opacity: 1; transform: translateY(0); }
-}
-
-.header-content h1 span {
-    display: inline-block;
-    animation: changeText 10s infinite;
 }
 
 @keyframes changeText {
