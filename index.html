@@ -10,12 +10,12 @@
 <body>
   <!-- Conteneur principal -->
   <div class="container">
-
+   
     <!-- En-tête -->
     <header>
         <div class="header-content">
             <img src="./assets/images/Sans_fond_1.png" alt="Logo" class="logo" />
-            <h1>Formation analyse de données avec python 📊</h1>
+            <h1 id="dynamic-text">Formation analyse de données avec python 📊</h1>
             <a href="https://www.python.org/">
                 <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" alt="Python Badge">
             </a>
@@ -28,6 +28,21 @@
         </div>
                 
     </header>
+
+    <!-- Animer le texte sur le header-->
+    <script>
+        const phrases = [
+            'Développez vos compétences en données',
+            'Découvrez l’analyse de données avec Python',
+            'Maîtrisez Python pour l’analyse de données',
+            'Accélérez votre carrière en Data Science'
+        ];
+        let phraseIndex = 0;
+        setInterval(() => {
+            document.getElementById('dynamic-text').textContent = phrases[phraseIndex];
+            phraseIndex = (phraseIndex + 1) % phrases.length;
+        }, 3000); // Changement toutes les 3 secondes
+    </script>
 
     <!-- Section principale -->
     <main>
