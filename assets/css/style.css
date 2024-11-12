@@ -79,7 +79,7 @@ header nav ul li {
 
 section.welcome {
     position: relative;
-    background-image: url('python-data-analysis/assets/images/formation-python-david-akpovi-background.jpg') !important;
+    background-image: url('assets/images/formation-python-david-akpovi-background.jpg') !important;
     background-size: cover;
     background-position: center;
     color: #fff;
