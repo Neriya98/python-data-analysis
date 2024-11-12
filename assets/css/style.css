@@ -55,8 +55,14 @@ a:hover, .cta-link:hover {
 
 /* --- Header --- */
 header {
-    padding: 20px 10px; /* Réduire la hauteur */
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
 }
+
 .header-content h1 {
     font-size: 1.8em; /* Réduire la taille du texte */
 }

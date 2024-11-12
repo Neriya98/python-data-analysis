@@ -12,23 +12,27 @@
 <div class="container">
 <!-- En-tête -->
 <header>
-        <div class="header-content">
-            <img src="./assets/images/Sans_fond_1.png" alt="Logo" class="logo" />
-            <h1>Formation Analyse de Données avec Python 📊</h1>
+    <div class="header-content">
+        <img src="./assets/images/Sans_fond_1.png" alt="Logo" class="logo" />
+        <h1 id="dynamic-text">Formation analyse de données avec python 📊</h1>
+    </div>
             
-            <a href="https://www.python.org/">
-                <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" alt="Python Badge>
-            </a>
-            
-            <img src="https://img.shields.io/badge/Data_Analysis-blue?" alt="Data Science Badge">
-            
-            <a href="https://github.com/Neriya98/python-data-analysis" target="_blank">
-                <img src="https://img.shields.io/badge/Formation-Analyse%20de%20Données%20avec%20Python-blue?style=for-the-badge" alt="Formation Badge">
-            </a>
-            
-        </div>
-        
 </header>
+
+<!-- Animer le texte sur le header-->
+<script>
+    const phrases = [
+        'Développez vos compétences en données',
+        'Découvrez l’analyse de données avec Python',
+        'Maîtrisez Python pour l’analyse de données',
+        'Accélérez votre carrière en Data Science'
+    ];
+    let phraseIndex = 0;
+    setInterval(() => {
+        document.getElementById('dynamic-text').textContent = phrases[phraseIndex];
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+    }, 3000); // Changement toutes les 3 secondes
+</script>
 
 
 <!-- Program Title -->
