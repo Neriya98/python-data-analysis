@@ -95,6 +95,7 @@ header {
 
 .header-content h1 span {
     display: inline-block;
+    color: #d0e1f9;
     animation: typing 10s infinite;
 }
 
