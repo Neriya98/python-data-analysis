@@ -92,6 +92,10 @@ header {
     75%, 100% { content: 'Accélérez votre carrière en Data Science'; width: 100%; }
 }
 
+.header-content h1 span {
+    display: inline-block;
+    animation: typing 10s infinite;
+}
 
 /* Animation de saisie */
 .typing {
