@@ -94,6 +94,7 @@
                     <p>Introduction aux bases de données relationnelles, écriture de requêtes SQL, et intégration de SQL dans les analyses Python.</p>
                 </div>
             </div>
+            <p><a href="./programme" class="cta-link">➡️ Voir le programme complet</a> pour les détails de chaque session.</p>
         </div>
       </section>
     
@@ -225,5 +226,21 @@
     </footer>
 
   </div> <!-- Fin du conteneur -->
+  <script>
+    function showTab(sessionId) {
+    // Récupère toutes les éléments des onglets et boutons
+    const tabs = document.querySelectorAll('.tab-item');
+    const buttons = document.querySelectorAll('.tab-button');
+
+    // Cache tous les onglets et retire la classe 'active' des boutons
+    tabs.forEach(tab => tab.classList.remove('active'));
+    buttons.forEach(button => button.classList.remove('active'));
+
+    // Affiche l'onglet correspondant et active le bouton
+    document.getElementById(sessionId).classList.add('active');
+    document.querySelector(`button[onclick="showTab('${sessionId}')"]`).classList.add('active');
+    }
+
+  </script>
 </body>
 </html>
