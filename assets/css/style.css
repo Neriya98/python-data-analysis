@@ -256,13 +256,17 @@ section.welcome::before {
 }
 
 .left {
-    text-align: left;
+    text-align: center;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .right {
     text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
