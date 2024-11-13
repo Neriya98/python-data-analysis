@@ -176,7 +176,7 @@ section.welcome::before {
   }
 
 .intro-section .cta-button{
-    left: 50%;
+    left: 30%;
     position: absolute;
     background-color: #dc3545;
 }
@@ -241,6 +241,27 @@ section.welcome::before {
       transform: translateX(0);
     }
   }
+
+
+  /* Text container */
+  .text-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espace entre les deux blocs */
+    padding: 20px;
+}
+
+.text-block {
+    width: 48%; /* Ajustez selon l'espace souhaité */
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
 
 /* --- Lists --- */
 ul, ol {
