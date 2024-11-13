@@ -6,3 +6,14 @@
             <li><strong>Écart théorie-réalité</strong> : L’analyse de données nécessite plus que des tutoriels de base.</li>
             <li><strong>Manque de support</strong> : Se retrouver seul face aux bugs ou incompréhensions peut décourager.</li>
         </ul>
+
+
+
+        <h3>Présentation de la Formation</h3>
+        <p>Notre formation en Python pour l’analyse de données vous offre une méthode claire et structurée :</p>
+        <ul class="training-objectives">
+            <li>Acquérir les bases de l'analyse de données avec des exemples concrets.</li>
+            <li>Apprendre à manipuler des bases de données SQL et MongoDB.</li>
+            <li>Utiliser Flask pour créer des tableaux de bord et monitorer des données.</li>
+            <li>Automatiser vos tâches pour maximiser votre productivité.</li>
+        </ul>
