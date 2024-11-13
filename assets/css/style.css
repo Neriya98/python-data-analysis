@@ -265,13 +265,13 @@ section.welcome::before {
 .left {
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 4px 10px linear-gradient(135deg, rgba(0, 123, 255, 0.5), rgba(0, 198, 255, 0.5));
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .right {
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 4px 10px linear-gradient(135deg, rgba(0, 123, 255, 0.5), rgba(0, 198, 255, 0.5));;
+    box-shadow: 0 4px 10px #007bff;
 }
 
 /* --- Lists --- */
