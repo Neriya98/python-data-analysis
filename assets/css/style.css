@@ -188,7 +188,9 @@ section.welcome::before {
     font-weight: bold;
     margin-bottom: 15px;
 }
-
+.intro-section h3{
+    color: #dc3545;
+}
 .intro-section p {
     margin-bottom: 15px;
     font-size: 1.1em;
@@ -259,14 +261,10 @@ section.welcome::before {
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .right {
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -393,7 +391,7 @@ section.pricing {
 }
 
 .price {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #e63946;
 }
@@ -409,6 +407,10 @@ section.pricing {
 .pricing-benefits li {
     margin-bottom: 10px;
     color: #333;
+}
+
+.pricing-benefits li::before{
+    content:"⏩" ;
 }
 
 .status {
@@ -440,6 +442,22 @@ section.pricing {
 
 .cta-button:hover {
     background-color: #0056b3;
+}
+
+/* Blockquote and testimonials*/
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+    padding-left: 15px;
+    border-left: 3px solid #0056b3;
+}
+
+.section.testimonials blockquote {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #3498db;
+    background-color: #222;
 }
 
 /* --- Details Dropdown --- */
@@ -564,6 +582,18 @@ details ul ul li::before {
     background-color: #007bff;
     color: #fff;
     border-radius: 5px;
+    position: relative;
+}
+
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    font-weight: bold;
+}
+
+.faq-item[open] summary::after {
+    content: "-";
 }
 
 /* --- Footer --- */

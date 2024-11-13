@@ -283,20 +283,7 @@ footer {
     font-weight: bold;
 }
 
-blockquote {
-    font-style: italic;
-    color: #555;
-    margin: 15px 0;
-    padding-left: 15px;
-    border-left: 3px solid #0056b3;
-}
 
-.section.testimonials blockquote {
-    margin: 20px 0;
-    padding: 10px;
-    border-left: 4px solid #3498db;
-    background-color: #222;
-}
 
 
 
