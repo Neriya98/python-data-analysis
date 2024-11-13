@@ -160,7 +160,7 @@ section.welcome::before {
 /* Style pour la section d'accueil */
 .intro-section {
     padding: 20px;
-    
+    padding-bottom: 60px;
     border-radius: 10px;
     margin-bottom: 30px;
     line-height: 1.6;
