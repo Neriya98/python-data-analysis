@@ -175,9 +175,10 @@ section.welcome::before {
     animation: slideInFromLeft 0.7s forwards;
   }
 
-.intro-section.cta-button{
+.intro-section .cta-button{
     left: 50%;
     position: absolute;
+    background-color: #dc3545;
 }
 
 .intro-section h2 {
