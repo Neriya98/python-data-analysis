@@ -190,6 +190,7 @@ section.welcome::before {
 }
 .intro-section h3{
     color: #dc3545;
+    text-align: center;
 }
 .intro-section p {
     margin-bottom: 15px;
@@ -400,7 +401,7 @@ section.pricing {
     list-style-type: none;
     padding: 0;
     margin: 20px 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.8;
 }
 
@@ -441,7 +442,7 @@ section.pricing {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #dc3545;
 }
 
 /* Blockquote and testimonials*/
