@@ -248,7 +248,7 @@ section.welcome::before {
     display: flex;
     justify-content: space-between;
     gap: 20px; /* Espace entre les deux blocs */
-    padding: 20px;
+    padding: 10px;
 }
 
 .text-block {
@@ -264,7 +264,7 @@ section.welcome::before {
 }
 
 .right {
-    text-align: left;
+    text-align: center;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 5px;
