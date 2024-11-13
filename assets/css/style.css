@@ -25,7 +25,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px 20px; /* Diminue le padding pour réduire la taille */
-    position: fixed;
+    position: relative;
     overflow: hidden;
     height: 20px; /* Diminue la hauteur */
     display: flex;
@@ -36,6 +36,14 @@ header {
     left: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(224, 216, 216, 0.349);
+}
+
+header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* --- Logo et Navigation dans le Header --- */
