@@ -176,7 +176,7 @@ section.welcome::before {
   }
 
 .intro-section .cta-button{
-    left: 30%;
+    left: 40%;
     position: absolute;
     background-color: #dc3545;
 }
@@ -256,11 +256,15 @@ section.welcome::before {
 }
 
 .left {
-    text-align: left;
+    text-align: right;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .right {
     text-align: right;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* --- Lists --- */
