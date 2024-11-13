@@ -1,0 +1,8 @@
+        
+        <ul class="pain-points">
+            <li><strong>Perte de temps</strong> : La multitude de tutos et livres dispersés peut mener à une perte de temps énorme.</li>
+            <li><strong>Éparpillement</strong> : Sans une feuille de route précise, vous risquez de sauter d’un sujet à l’autre.</li>
+            <li><strong>Pratique limitée</strong> : Trouver des exercices adaptés est complexe, et sans feedback direct, il est difficile de s’améliorer.</li>
+            <li><strong>Écart théorie-réalité</strong> : L’analyse de données nécessite plus que des tutoriels de base.</li>
+            <li><strong>Manque de support</strong> : Se retrouver seul face aux bugs ou incompréhensions peut décourager.</li>
+        </ul>
