@@ -17,3 +17,9 @@
             <li>Utiliser Flask pour créer des tableaux de bord et monitorer des données.</li>
             <li>Automatiser vos tâches pour maximiser votre productivité.</li>
         </ul>
+
+
+
+        <p>
+          Apprendre Python seul, c’est un peu comme essayer de naviguer dans un labyrinthe sans carte. Vous accumulez des morceaux de connaissances, glanés ici et là, mais aucun ne semble s’imbriquer dans une logique utile pour votre métier. La théorie, vous la maîtrisez, mais pour passer à la pratique, pour atteindre ce niveau opérationnel, il vous manque l’essentiel : une méthode structurée, des étapes claires, et une feuille de route précise pour transformer les compétences techniques en une réelle valeur ajoutée.
+        </p>
