@@ -213,11 +213,12 @@ section.welcome::before {
     padding: 10px 20px;
     color: #fff;
     background-color: #007bff;
-    border-radius: 5px;
+    border-radius: 75px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
     left: 50%;
+    position: absolute;
 }
 
 .cta-button:hover {
