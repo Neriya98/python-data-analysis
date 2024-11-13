@@ -27,7 +27,7 @@ header {
     padding: 20px 20px; /* Diminue le padding pour réduire la taille */
     position: relative;
     overflow: hidden;
-    height: 40px; /* Diminue la hauteur */
+    height: 20px; /* Diminue la hauteur */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,7 +36,7 @@ header {
 
 /* --- Logo et Navigation dans le Header --- */
 header .logo {
-    height: 70px;
+    height: 150px;
     margin-left: 20px; /* Espace entre le logo et le bord */
 }
 
