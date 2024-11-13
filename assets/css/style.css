@@ -271,7 +271,7 @@ section.welcome::before {
 .right {
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 4px 10px #007bff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* --- Lists --- */
@@ -380,7 +380,7 @@ section.pricing {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 10px;
-    width: 280px;
+    width: 400px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
