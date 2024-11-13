@@ -175,6 +175,11 @@ section.welcome::before {
     animation: slideInFromLeft 0.7s forwards;
   }
 
+.intro-section.cta-button{
+    left: 50%;
+    position: absolute;
+}
+
 .intro-section h2 {
     font-size: 1.8em;
     color: #007bff;
@@ -213,13 +218,12 @@ section.welcome::before {
     padding: 10px 20px;
     color: #fff;
     background-color: #007bff;
-    border-radius: 75px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
-    left: 50%;
-    position: absolute;
 }
+
 
 .cta-button:hover {
     background-color: #0056b3;
