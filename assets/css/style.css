@@ -181,6 +181,10 @@ section.welcome::before {
     background-color: #dc3545;
 }
 
+.intro-section .cta-button:hover{
+    background-color: #0056b3;
+}
+
 .intro-section h2 {
     font-size: 1.8em;
     color: #007bff;
@@ -261,13 +265,13 @@ section.welcome::before {
 .left {
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px linear-gradient(135deg, rgba(0, 123, 255, 0.5), rgba(0, 198, 255, 0.5));
 }
 
 .right {
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px linear-gradient(135deg, rgba(0, 123, 255, 0.5), rgba(0, 198, 255, 0.5));;
 }
 
 /* --- Lists --- */
