@@ -32,6 +32,10 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(224, 216, 216, 0.349);
 }
 
 /* --- Logo et Navigation dans le Header --- */
