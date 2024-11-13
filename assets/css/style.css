@@ -232,7 +232,7 @@ ul li::before {
 /* Programme de formation avec onglets */
 .training-program {
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #f0f8ff;
     border-radius: 10px;
     margin-top: 30px;
 }
@@ -421,7 +421,7 @@ details ul ul li::before {
 .differentiators {
     text-align: center;
     padding: 60px 20px;
-    background-color: #f1f1f1;
+    background-color: #f0f8ff;
     margin: 40px 0;
     border-radius: 8px;
 }
