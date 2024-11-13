@@ -15,7 +15,7 @@
             <img src="./assets/images/Sans_fond_1.png" alt="Logo" class="logo" />
         </div>
         <nav class="navbar">
-          <a href="/">Accueil</a>
+          <a href="/python-data-analysis/index.html">Accueil</a>
           <a href="/python-data-analysis/programme.html">Programme</a>
           <a href="/python-data-analysis/contact.html">Contact</a>
       </nav>
@@ -61,22 +61,25 @@
           Vous avez pris la décision d'apprendre Python pour faire un bond dans votre carrière d'analyste de données. L’enthousiasme est là, la motivation aussi. Mais aujourd'hui, après six mois de tentatives dispersées, où en êtes-vous vraiment ? Vous avez probablement démarré plusieurs tutoriels, suivi des vidéos… et chaque fois, c’est la même histoire : après quelques semaines, le manque de structure et de discipline prend le dessus. Le résultat ? La progression est lente, et vous voilà à la case départ.
         </p>
         <p>
-          Vous êtes ambitieux, et c’est naturel. Donc, vous vous voudrez à nouveau apprendre. Vous déborderez d’enthousiasme au départ, prêt à tout donner. 
+          Vous êtes ambitieux, et c’est naturel. Donc, vous voudrez à nouveau apprendre. Vous déborderez d’enthousiasme au départ, prêt à tout donner. 
           Mais, avec la routine qui s’installe, les obligations quotidiennes qui s’ajoutent, et, sans structure, votre désir d'apprendre python se retrouvera en bas de la liste des priorités.
           Et, pourtant, les opportunités sont là, juste à portée de main. Vous le savez, maîtriser python ferait de vous un analyste polyvalent, capable de mener des projets plus stimulants, de résoudre des cas plus complexes. 
         </p>
         <p>  
           Mais, comme aujourd'hui, ces projets passeront sous vos yeux, vous échapperont, et chaque jour qui passera sans progresser dans python est un jour de perdu. 
-          Ce n’est pas un manque de sérieux – c’est simplement qu’apprendre seul, sans un parcours clair et des objectifs adaptés, devient un effort colossal. Vous ressentez ce besoin de discipline, de soutien, d’une feuille de route pour savoir non seulement comment apprendre, mais surtout quoi apprendre pour devenir opérationnel rapidement. 
+          Ce n’est pas un manque de sérieux – c’est simplement qu’apprendre seul, sans un parcours clair et des objectifs adaptés, devient un effort colossal. 
+        </p>
+        <p>
+          Vous ressentez ce besoin de discipline, de soutien, d’une feuille de route pour savoir non seulement comment apprendre, MAIS SURTOUT QUOI apprendre pour devenir opérationnel rapidement. 
           L’analyse de données est votre cœur de métier, vous le savez : la théorie ne suffit pas. Vous avez besoin de résoudre des cas réels, de manipuler des données concrètes, mais les tutos généralistes ne vous préparent pas aux réalités de votre travail.
         </p>
         <h2>Une méthode éprouvée, pour vous amener là où vous voulez aller</h2>
         <p>
           Je le sais bien, car j’ai emprunté ce même chemin. J’ai consacré plus de 7 heures par jour à me perfectionner en Python. J’ai exploré ses moindres recoins, des concepts théoriques aux techniques les plus avancées. J’ai appris bien au-delà de ce qui est nécessaire en analyse de données. Ce que j’en ai tiré, c’est une certitude : la clé de la réussite ne réside pas dans la quantité de connaissances, mais dans la précision et la pertinence. Vous n’avez pas besoin de tout savoir. Vous avez besoin de maîtriser ce qui est essentiel pour exceller dans votre travail d'analyste. C’est ce qui m’a poussé à créer cette formation, pensée pour éliminer tous les détours inutiles, et pour vous guider directement vers l’essentiel.
         </p>
-
+      </section>
+      <section class="intro-section">
         <h2>Car si vous continuez seul, dans ces conditions, les conséquences sont inévitables</h2>
-        
         <ul class="pain-points">
           <li><strong>Perte de temps</strong> : Les heures perdues à explorer des contenus sans lien avec vos besoins professionnels ne se rattrapent jamais.</li>
           <li><strong>Opportunités manquées</strong> : Sans une maîtrise opérationnelle, vous ne pourrez pas saisir les projets Python qui vous stimuleraient et feraient progresser votre carrière.</li>
@@ -281,6 +284,22 @@
     document.getElementById(sessionId).classList.add('active');
     document.querySelector(`button[onclick="showTab('${sessionId}')"]`).classList.add('active');
     }
+    // Fonction pour animer les blocs de session
+    document.addEventListener("DOMContentLoaded", function() {
+      const introSection = document.querySelector('.intro-section');
+
+      function revealOnScroll() {
+        const rect = introSection.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+        if (rect.top <= windowHeight - 100) { // Décalage pour plus de fluidité
+          introSection.classList.add('visible');
+          window.removeEventListener('scroll', revealOnScroll);
+        }
+      }
+
+      window.addEventListener('scroll', revealOnScroll);
+    });
 
   </script>
 </body>
