@@ -286,20 +286,21 @@
     }
     // Fonction pour animer les blocs de session
     document.addEventListener("DOMContentLoaded", function() {
-      const introSection = document.querySelector('.intro-section');
+      const introSections = document.querySelectorAll(".intro-section");
 
-      function revealOnScroll() {
-        const rect = introSection.getBoundingClientRect();
-        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                  entry.target.classList.add("visible");
+              }
+          });
+      });
 
-        if (rect.top <= windowHeight - 100) { // Décalage pour plus de fluidité
-          introSection.classList.add('visible');
-          window.removeEventListener('scroll', revealOnScroll);
-        }
-      }
-
-      window.addEventListener('scroll', revealOnScroll);
+      introSections.forEach(section => {
+          observer.observe(section);
+      });
     });
+
 
   </script>
 </body>

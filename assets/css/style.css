@@ -187,7 +187,6 @@ section.welcome::before {
     margin-bottom: 15px;
     font-size: 1.1em;
     color: #555;
-    line-height: 25px;
 }
 
 .pain-points, .training-objectives {
@@ -247,8 +246,9 @@ ul li::before {
 }
 
 .section.objectives li::before {
-    content: "+";
+    content: "🎯";
     color: #007bff;
+    font-size: 1.2rem;
 }
 
 /* Programme de formation avec onglets */
