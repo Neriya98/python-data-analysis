@@ -260,7 +260,7 @@ section.welcome::before {
 
 .text-block {
     width: 48%; /* Ajustez selon l'espace souhaité */
-    font-size: 0.9em;
+    font-size: 12px;
 }
 
 .left {
