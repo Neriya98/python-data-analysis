@@ -99,11 +99,12 @@ section.welcome {
     text-align: center;
     padding: 100px 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh; /* Augmente la hauteur de la section welcome */
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    justify-content: center; /* Centre les éléments verticalement */
+    height: 80vh; /* Ajuste la hauteur selon tes besoins */
     overflow: hidden;
-    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+    background-repeat: no-repeat;
     z-index: 0;
 }
 
@@ -138,7 +139,9 @@ section.welcome::before {
     border-radius: 5px;
     transition: background-color 0.3s ease;
     z-index: 1;
+    margin-top: 20px; /* Ajoute un espace entre le bouton et le titre */
 }
+
 
 .cta-button-welcome:hover {
     background-color: #0056b3;
