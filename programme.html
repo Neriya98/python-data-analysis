@@ -273,5 +273,15 @@
 
 </section>
 </div> <!-- Fin du conteneur principal-->
+<script>
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      if (window.scrollY > 100) { // Ajustez "100" pour déterminer le point de déclenchement
+          header.classList.add("fixed");
+      } else {
+          header.classList.remove("fixed");
+      }
+    });
+  </script>
 </body>
 </html>
