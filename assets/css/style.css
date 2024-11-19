@@ -306,8 +306,9 @@ ul li::before {
     text-align: center;
     color: #007bff;
 }
-section.training-program .cta-button{
+.training-program .cta-button{
     left: 40%;
+    position: absolute;
 }
 .tab-container {
     display: flex;
