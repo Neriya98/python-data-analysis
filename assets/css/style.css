@@ -308,7 +308,7 @@ ul li::before {
 }
 .training-program .cta-button{
     left: 40%;
-    position: fixed;
+    position: sticky;
 }
 .tab-container {
     display: flex;
