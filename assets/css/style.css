@@ -329,9 +329,12 @@ ul li::before {
     font-weight: bold;
     transition: background-color 0.3s;
 }
+.tab-button:hover{
+    background-color: #dc3545;
+}
 
 .tab-button.active {
-    background-color: #0056b3;
+    background-color: #dc3545;
 }
 
 .tab-button:hover {
