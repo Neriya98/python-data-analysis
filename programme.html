@@ -7,33 +7,21 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- En-tête -->
+    <header>
+        <div class="header-content">
+            <img src="./assets/images/maryse_2.png" alt="Logo" class="logo" />
+        </div>
+        <nav class="navbar">
+          <a href="/python-data-analysis/index.html">Accueil</a>
+          <a href="/python-data-analysis/programme.html">Programme</a>
+          <a href="/python-data-analysis/contact.html">Contact</a>
+      </nav>
+                
+    </header>
 
 <!----Contenu de la page-->
 <div class="container">
-<!-- En-tête -->
-<header>
-    <div class="header-content">
-        <img src="./assets/images/Sans_fond_1.png" alt="Logo" class="logo" />
-        <h1 id="dynamic-text">Formation analyse de données avec python 📊</h1>
-    </div>
-            
-</header>
-
-<!-- Animer le texte sur le header-->
-<script>
-    const phrases = [
-        'Développez vos compétences en données',
-        'Découvrez l’analyse de données avec Python',
-        'Maîtrisez Python pour l’analyse de données',
-        'Accélérez votre carrière en Data Science'
-    ];
-    let phraseIndex = 0;
-    setInterval(() => {
-        document.getElementById('dynamic-text').textContent = phrases[phraseIndex];
-        phraseIndex = (phraseIndex + 1) % phrases.length;
-    }, 3000); // Changement toutes les 3 secondes
-</script>
-
 
 <!-- Program Title -->
 <p>Ce parcours est conçu pour vous accompagner, semaine après semaine, dans l'acquisition des compétences essentielles en Python, manipulation de données, visualisation, automatisation et bien plus encore. 
