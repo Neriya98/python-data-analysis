@@ -357,7 +357,7 @@ ul li::before {
 }
 
 .tab-item li{
-    left: 20%;
+    margin-left: 20px;
 }
 .tab-item li::before{
     content: "-";
