@@ -132,6 +132,7 @@ section.welcome::before {
 
 .cta-button-welcome {
     padding: 10px 20px;
+    padding-top: 60px;
     background-color: #e63946;
     color: #fff;
     text-decoration: none;
