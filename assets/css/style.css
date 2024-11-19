@@ -131,7 +131,7 @@ section.welcome::before {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
-.cta-button-welcome {
+.welcome .cta-button{
     padding: 10px 20px;
     background-color: #e63946;
     color: #fff;
