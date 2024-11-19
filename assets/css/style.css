@@ -308,7 +308,7 @@ ul li::before {
 }
 .training-program .cta-button{
     left: 40%;
-    position: absolute;
+    position: fixed;
 }
 .tab-container {
     display: flex;
@@ -342,7 +342,7 @@ ul li::before {
 }
 
 .tab-content {
-    display: block;
+    display: flex;
     justify-content: center;
 }
 
