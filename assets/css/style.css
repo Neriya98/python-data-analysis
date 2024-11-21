@@ -602,7 +602,7 @@ details ul ul li::before {
 
 .faq-item summary::after {
     content: "+";
-    color: #dc3545;
+    color: #fff;
     position: absolute;
     right: 20px;
     font-weight: bold;
