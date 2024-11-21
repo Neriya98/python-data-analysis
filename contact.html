@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Formateurs</title>
+    <title>Contact - Nos Formateurs</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -19,56 +19,42 @@
         </nav>
     </header>
 
-    <!-- Section Titre -->
-    <section class="welcome">
-        <div>
-            <h1 id="dynamic-text">Rencontrez nos Formateurs</h1>
+    <!-- Section principale -->
+    <main class="container">
+        <h1>Nos Formateurs</h1>
+        <p>Rencontrez nos experts qui vous accompagneront tout au long de cette formation.</p>
+
+        <!-- Blocs formateurs -->
+        <div class="formateurs">
+            <!-- Formateur 1 -->
+            <div class="formateur">
+                <img src="assets/images/formateur1.jpg" alt="Photo du formateur 1" class="formateur-photo">
+                <h2>Prénom Nom</h2>
+                <p>Data Scientist spécialisé en analyse de données et automatisation. Passionné par le partage de connaissances et les technologies innovantes.</p>
+                <div class="contact-icons">
+                    <a href="https://linkedin.com/in/formateur1" target="_blank"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="https://github.com/formateur1" target="_blank"><img src="assets/icons/github.svg" alt="GitHub"></a>
+                    <a href="https://wa.me/123456789" target="_blank"><img src="assets/icons/whatsapp.svg" alt="WhatsApp"></a>
+                </div>
+            </div>
+
+            <!-- Formateur 2 -->
+            <div class="formateur">
+                <img src="assets/images/formateur2.jpg" alt="Photo du formateur 2" class="formateur-photo">
+                <h2>Prénom Nom</h2>
+                <p>Expert en visualisation et création de tableaux de bord. Expérimenté dans la formation et l'accompagnement en Python et data science.</p>
+                <div class="contact-icons">
+                    <a href="https://linkedin.com/in/formateur2" target="_blank"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="https://github.com/formateur2" target="_blank"><img src="assets/icons/github.svg" alt="GitHub"></a>
+                    <a href="https://wa.me/987654321" target="_blank"><img src="assets/icons/whatsapp.svg" alt="WhatsApp"></a>
+                </div>
+            </div>
         </div>
-        <p>Découvrez nos formateurs, leur expertise et comment les contacter directement.</p>
-    </section>
+    </main>
 
-    <!-- Section des Formateurs -->
-    <div class="container">
-        <section class="trainers">
-            <!-- Bloc Formateur -->
-            <div class="trainer-block">
-                <img src="./assets/images/formateur1.jpg" alt="Photo du formateur" class="trainer-photo">
-                <div class="trainer-info">
-                    <h2>Jean Dupont</h2>
-                    <p>Expert en Python et analyse de données. Jean a 10 ans d'expérience dans la formation et la conception de solutions ML.</p>
-                    <div class="trainer-links">
-                        <a href="https://www.linkedin.com/in/jean-dupont" target="_blank">LinkedIn</a>
-                        <a href="https://github.com/jean-dupont" target="_blank">GitHub</a>
-                        <a href="https://wa.me/123456789" target="_blank">WhatsApp</a>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Répétez pour un autre formateur -->
-            <div class="trainer-block">
-                <img src="./assets/images/formateur2.jpg" alt="Photo du formateur" class="trainer-photo">
-                <div class="trainer-info">
-                    <h2>Marie Leblanc</h2>
-                    <p>Spécialiste en visualisation de données et outils comme Seaborn et Plotly. Marie a dirigé plus de 50 projets de visualisation.</p>
-                    <div class="trainer-links">
-                        <a href="https://www.linkedin.com/in/marie-leblanc" target="_blank">LinkedIn</a>
-                        <a href="https://github.com/marie-leblanc" target="_blank">GitHub</a>
-                        <a href="https://wa.me/987654321" target="_blank">WhatsApp</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <script>
-        window.addEventListener("scroll", function() {
-            var header = document.querySelector("header");
-            if (window.scrollY > 100) {
-                header.classList.add("fixed");
-            } else {
-                header.classList.remove("fixed");
-            }
-        });
-    </script>
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Analyse de Données avec Python. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>

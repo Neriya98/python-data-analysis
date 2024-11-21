@@ -40,3 +40,88 @@
 
 
           Je le sais bien, car j’ai emprunté ce même chemin. J’ai consacré plus de 7 heures par jour à me perfectionner en Python. J’ai exploré ses moindres recoins, des concepts théoriques aux techniques les plus avancées. J’ai appris bien au-delà de ce qui est nécessaire en analyse de données. Ce que j’en ai tiré, c’est une certitude : la clé de la réussite ne réside pas dans la quantité de connaissances, mais dans la précision et la pertinence. Vous n’avez pas besoin de tout savoir. Vous avez besoin de maîtriser ce qui est essentiel pour exceller dans votre travail d'analyste. C’est ce qui m’a poussé à créer cette formation, pensée pour éliminer tous les détours inutiles, et pour vous guider directement vers l’essentiel.
+
+
+
+
+
+
+
+
+
+
+
+          <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Formateurs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="header-content">
+            <img src="./assets/images/maryse_2.png" alt="Logo" class="logo" />
+        </div>
+        <nav class="navbar">
+            <a href="/python-data-analysis/index.html">Accueil</a>
+            <a href="/python-data-analysis/programme.html">Programme</a>
+            <a href="/python-data-analysis/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Section Titre -->
+    <section class="welcome">
+        <div>
+            <h1 id="dynamic-text">Rencontrez nos Formateurs</h1>
+        </div>
+        <p>Découvrez nos formateurs, leur expertise et comment les contacter directement.</p>
+    </section>
+
+    <!-- Section des Formateurs -->
+    <div class="container">
+        <section class="trainers">
+            <!-- Bloc Formateur -->
+            <div class="trainer-block">
+                <img src="./assets/images/formateur1.jpg" alt="Photo du formateur" class="trainer-photo">
+                <div class="trainer-info">
+                    <h2>Jean Dupont</h2>
+                    <p>Expert en Python et analyse de données. Jean a 10 ans d'expérience dans la formation et la conception de solutions ML.</p>
+                    <div class="trainer-links">
+                        <a href="https://www.linkedin.com/in/jean-dupont" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/jean-dupont" target="_blank">GitHub</a>
+                        <a href="https://wa.me/123456789" target="_blank">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Répétez pour un autre formateur -->
+            <div class="trainer-block">
+                <img src="./assets/images/formateur2.jpg" alt="Photo du formateur" class="trainer-photo">
+                <div class="trainer-info">
+                    <h2>Marie Leblanc</h2>
+                    <p>Spécialiste en visualisation de données et outils comme Seaborn et Plotly. Marie a dirigé plus de 50 projets de visualisation.</p>
+                    <div class="trainer-links">
+                        <a href="https://www.linkedin.com/in/marie-leblanc" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/marie-leblanc" target="_blank">GitHub</a>
+                        <a href="https://wa.me/987654321" target="_blank">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            if (window.scrollY > 100) {
+                header.classList.add("fixed");
+            } else {
+                header.classList.remove("fixed");
+            }
+        });
+    </script>
+</body>
+</html>
