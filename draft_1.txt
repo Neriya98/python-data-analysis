@@ -23,3 +23,17 @@
         <p>
           Apprendre Python seul, c’est un peu comme essayer de naviguer dans un labyrinthe sans carte. Vous accumulez des morceaux de connaissances, glanés ici et là, mais aucun ne semble s’imbriquer dans une logique utile pour votre métier. La théorie, vous la maîtrisez, mais pour passer à la pratique, pour atteindre ce niveau opérationnel, il vous manque l’essentiel : une méthode structurée, des étapes claires, et une feuille de route précise pour transformer les compétences techniques en une réelle valeur ajoutée.
         </p>
+
+
+
+
+        <!-- Availability and Info Badges -->
+<div>
+    <img src="https://img.shields.io/badge/Places_disponibles-30-brightgreen" alt="Nombre de places disponibles">
+    <img src="https://img.shields.io/badge/Langue-Français-blue" alt="Langue">
+    <img src="https://img.shields.io/badge/Durée-30+%20heures-orange" alt="Durée">
+    <img src="https://img.shields.io/badge/Mise%20%C3%A0%20jour-Novembre_2024-brightgreen" alt="Mise à jour">
+    <img src="https://img.shields.io/badge/Nombre%20de%20Sessions-20-purple" alt="Sessions">
+    <img src="https://img.shields.io/badge/Statut%20-À_venir-red" alt="Statut">
+    <img src="https://img.shields.io/badge/Prochaine%20rentrée%20-22%20Novembre%202024-brown" alt="Prochaine rentrée">
+</div>
