@@ -613,48 +613,38 @@ details ul ul li::before {
 }
 
 
-/* Section formateurs */
+/* Conteneur des formateurs */
 .formateurs {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap;
+    margin-top: 30px;
 }
 
+/* Bloc individuel d'un formateur */
 .formateur {
     background-color: #f4f4f4;
     border-radius: 8px;
     padding: 20px;
-    width: calc(50% - 10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .formateur-photo {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    object-fit: cover;
     margin-bottom: 10px;
 }
 
-.formateur h2 {
-    font-size: 1.5rem;
-    color: #333;
-}
-
-.formateur p {
-    font-size: 1rem;
-    color: #555;
-}
-
+/* Contact Icons */
 .contact-icons {
     margin-top: 10px;
 }
 
 .contact-icons a {
-    margin: 0 10px;
-    text-decoration: none;
+    margin: 0 5px;
 }
 
 .contact-icons img {
@@ -666,6 +656,8 @@ details ul ul li::before {
 .contact-icons img:hover {
     transform: scale(1.1);
 }
+
+
 /* --- Footer --- */
 footer {
     background-color: #222;
