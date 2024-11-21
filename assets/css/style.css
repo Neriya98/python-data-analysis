@@ -574,14 +574,6 @@ details ul ul li::before {
     left: 50%;
 }
 
-
-
-/*.differentiator-item img {
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
-}*/
-
 .differentiator-item h3 {
     font-size: 1.2rem;
     color: #333;
@@ -619,6 +611,60 @@ details ul ul li::before {
 .faq-item[open] summary::after {
     content: "-";
 }
+
+/* --- Elements de la page contact --- */
+/* Formateurs */
+.trainers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.trainer-block {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.trainer-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #007BFF;
+}
+
+.trainer-info {
+    padding: 15px;
+}
+
+.trainer-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.trainer-info p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.trainer-links a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.trainer-links a:hover {
+    text-decoration: underline;
+}
+
 
 /* --- Footer --- */
 footer {
