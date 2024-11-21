@@ -568,20 +568,19 @@ details ul ul li::before {
     display: flex; /* ou autre style adapté */
     justify-content: center;
     align-items: center;
-}
-
-.differentiator-item .icon-box {
     width: 100px;
     height: 100px;
     fill: #000; /* Assurez-vous que la couleur contraste avec le fond */
+    left: 50%;
 }
 
 
-.differentiator-item img {
+
+/*.differentiator-item img {
     width: 40px;
     height: 40px;
     vertical-align: middle;
-}
+}*/
 
 .differentiator-item h3 {
     font-size: 1.2rem;
