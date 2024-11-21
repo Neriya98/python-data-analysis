@@ -561,7 +561,7 @@ details ul ul li::before {
 }
 
 .differentiator-item .icon {
-    background-color: #007bff;
+    /*background-color: #007bff;*/
     padding: 15px;
     border-radius: 50%;
     margin-bottom: 20px;
