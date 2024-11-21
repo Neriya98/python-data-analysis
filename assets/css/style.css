@@ -560,13 +560,22 @@ details ul ul li::before {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.differentiator-item .icon {
+.differentiator-item .icon-box {
     /*background-color: #007bff;*/
     padding: 15px;
     border-radius: 50%;
     margin-bottom: 20px;
-    display: inline-block;
+    display: flex; /* ou autre style adapté */
+    justify-content: center;
+    align-items: center;
 }
+
+.differentiator-item .icon-box {
+    width: 100px;
+    height: 100px;
+    fill: #000; /* Assurez-vous que la couleur contraste avec le fond */
+}
+
 
 .differentiator-item img {
     width: 40px;
