@@ -598,7 +598,6 @@ details ul ul li::before {
     border-radius: 5px;
     position: relative;
     margin-bottom: 15px;
-    font-size: 15px;
 }
 
 .faq-item summary::after {
@@ -614,10 +613,17 @@ details ul ul li::before {
 }
 
 .faq-blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Deux colonnes égales */
+    column-gap: 16px; /* Réduire l'espace entre les colonnes */
+    padding: 10px;
+}
+/*.faq-blocks{
     display: flex;
     justify-content: space-around;
     gap: 10px;
 }
+    */
 /* Conteneur des formateurs */
 .formateurs {
     display: flex;
