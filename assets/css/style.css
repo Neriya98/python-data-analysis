@@ -614,7 +614,7 @@ details ul ul li::before {
 
 .faq-blocks{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;
 }
 /* Conteneur des formateurs */
