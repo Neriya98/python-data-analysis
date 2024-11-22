@@ -633,6 +633,7 @@ details ul ul li::before {
 
 .formateur .faq-item p{
     text-align: left;
+    justify-content: right;
 }
 .formateur-photo {
     width: 120px;
