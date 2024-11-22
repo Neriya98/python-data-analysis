@@ -618,12 +618,7 @@ details ul ul li::before {
     column-gap: 16px; /* Réduire l'espace entre les colonnes */
     padding: 10px;
 }
-/*.faq-blocks{
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-}
-    */
+
 /* Conteneur des formateurs */
 .formateurs {
     display: flex;
