@@ -220,7 +220,7 @@ section.welcome::before {
 }
 
 .cta-button {
-    display: inline-block;
+    display: flex;
     padding: 10px 20px;
     color: #fff;
     background-color: #007bff;
