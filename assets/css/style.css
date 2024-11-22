@@ -448,7 +448,7 @@ section.pricing {
 }
 
 .cta-button {
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
