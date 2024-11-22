@@ -696,7 +696,6 @@ footer {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(45deg, #007bff, #00d4ff);
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -714,7 +713,7 @@ footer {
   /* Bouton d'appel à l'action */
   .cta-bouton {
     display: inline-block;
-    background-color: #ff5722;
+    background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     font-size: 1rem;
@@ -724,5 +723,5 @@ footer {
   }
   
   .cta-bouton:hover {
-    background-color: #e64a19;
+    background-color: #dc3545;
   }
