@@ -612,6 +612,15 @@ details ul ul li::before {
     content: "-";
 }
 
+.faq-block {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
 
 /* Conteneur des formateurs */
 .formateurs {
