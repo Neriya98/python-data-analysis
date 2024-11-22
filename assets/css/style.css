@@ -220,17 +220,13 @@ section.welcome::before {
 }
 
 .cta-button {
-    display: flex;
+    display: inline-block;
     padding: 10px 20px;
     color: #fff;
     background-color: #007bff;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    position:absolute;
-    left: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
     transition: background-color 0.3s ease;
 }
 
@@ -448,7 +444,7 @@ section.pricing {
 }
 
 .cta-button {
-    /*display: inline-block;*/
+    display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -461,7 +457,6 @@ section.pricing {
 .cta-button:hover {
     background-color: #dc3545;
 }
-
 
 /* Blockquote and testimonials*/
 blockquote {
@@ -696,61 +691,3 @@ footer {
         font-size: 2rem;
     }
 }
-
-
-
-
-
-/* Section principale */
-.content-section {
-    padding: 20px;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-  }
-  
-  .content-section h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .content-section p {
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  /* Conteneur du CTA */
-  .cta-container {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(45deg, #007bff, #00d4ff);
-    color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cta-container h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-  }
-  
-  .cta-container p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
-  /* Bouton d'appel à l'action */
-  .cta-boutton {
-    display: inline-block;
-    background-color: #ff5722;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-boutton:hover {
-    background-color: #e64a19;
-  }
