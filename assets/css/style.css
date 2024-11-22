@@ -631,6 +631,9 @@ details ul ul li::before {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.formateur .faq-item p{
+    text-align: left;
+}
 .formateur-photo {
     width: 120px;
     height: 120px;
