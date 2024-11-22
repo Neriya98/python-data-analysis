@@ -592,7 +592,7 @@ details ul ul li::before {
 .faq-item summary {
     font-weight: bold;
     cursor: pointer;
-    padding: 20px;
+    padding: 5px;
     background-color: #007bff;
     color: #fff;
     border-radius: 5px;
