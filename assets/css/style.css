@@ -227,12 +227,14 @@ section.welcome::before {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    position:absolute;
+    left: 50%;
     transition: background-color 0.3s ease;
 }
 
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #dc3545;
 }
 
 /* Animation pour la section intro */
