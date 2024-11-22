@@ -627,7 +627,7 @@ details ul ul li::before {
     border-radius: 8px;
     padding: 20px;
     width: 45%;
-    text-align: center;
+    text-align: left;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
