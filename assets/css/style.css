@@ -612,7 +612,7 @@ details ul ul li::before {
     content: "-";
 }
 
-.faq-block {
+/*.faq-block {
     background-color: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -621,7 +621,13 @@ details ul ul li::before {
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
-
+*/
+.faq-blocks{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 /* Conteneur des formateurs */
 .formateurs {
     display: flex;
