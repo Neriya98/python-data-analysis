@@ -615,13 +615,13 @@ details ul ul li::before {
 .faq-blocks{
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 10px;
 }
 /* Conteneur des formateurs */
 .formateurs {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     margin-top: 30px;
 }
 
