@@ -635,9 +635,9 @@ details ul ul li::before {
     text-align: justify;
 }
 .formateur-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 510px;
+    height: 510px;
+    /*border-radius: 50%;*/
     margin-bottom: 10px;
 }
 
