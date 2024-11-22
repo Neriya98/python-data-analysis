@@ -740,7 +740,7 @@ footer {
   }
   
   /* Bouton d'appel à l'action */
-  .cta-button {
+  .cta-boutton {
     display: inline-block;
     background-color: #ff5722;
     color: #fff;
@@ -751,6 +751,6 @@ footer {
     transition: background-color 0.3s ease;
   }
   
-  .cta-button:hover {
+  .cta-boutton:hover {
     background-color: #e64a19;
   }
