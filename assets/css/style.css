@@ -409,6 +409,30 @@ section.pricing {
     color: #e63946;
 }
 
+/* Style pour le conteneur des prix */
+.pricing-header .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Prix original barré */
+.original-price {
+    text-decoration: line-through;
+    color: #ff0000;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  /* Prix promotionnel */
+.discounted-price {
+    color: #28a745;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
 .pricing-benefits {
     list-style-type: none;
     padding: 0;
