@@ -763,8 +763,8 @@ footer {
     }
 
     .formateur-photo {
-        width: 475px;
-        height: 475px;
+        width: 375px;
+        height: 375px;
         /*border-radius: 50%;*/
         margin-bottom: 10px;
     }
