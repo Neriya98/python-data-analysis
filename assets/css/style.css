@@ -36,6 +36,7 @@ header {
     left: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(224, 216, 216, 0.349);
+    z-index: 1000;
 }
 
 header.fixed {
