@@ -715,6 +715,9 @@ footer {
         font-size: 2rem;
     }
 
+    .container{
+        padding: 10px;
+    }
     .intro-section{
         padding: -10px;
     }
