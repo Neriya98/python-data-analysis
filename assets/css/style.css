@@ -742,6 +742,10 @@ footer {
         font-size: 12px; /* Réduction de la taille du texte */
     }
 
+    .differentiators-content{
+        flex-direction: column;
+    }
+
 
 }
 
