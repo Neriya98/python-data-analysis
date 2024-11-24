@@ -800,38 +800,30 @@ footer {
         /*border-radius: 50%;*/
         margin-bottom: 10px;
     }
-
+    /*
     .navbar {
-        display: none; /* Masquer le menu par défaut sur mobile */
-        /*flex-direction: column;*/
+        display: none; 
+        flex-direction: column;
         position: absolute;
-        top: 100%; /* Juste sous le header */
+        top: 100%; 
         right: 0;
         background-color: #fff;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         width: 100%;
         padding: 10px 0;
-        transition: all 0.3s ease-in-out; /* Ajoute une animation fluide */
+        transition: all 0.3s ease-in-out; 
     }
 
     .navbar.open {
-        display: block !important; /* Affiche le menu lorsqu'il est actif */
+        display: block !important; 
     }
 
     .navbar a {
         padding: 10px;
         text-align: center;
     }
-
-    .menu-toggle {
-        display: block; /* Affiche l'icône du menu hamburger */
-        cursor: pointer;
-        font-size: 24px;
-        color: #000; /* Couleur du texte */
-        background: none;
-        border: none;
-    }
-
+    */
+    
     .logo {
         display: none;
     }
