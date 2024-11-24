@@ -835,4 +835,9 @@ footer {
         border: none;
     }
 
+    header .logo {
+        height: 70px;
+        margin-left: 20px; /* Espace entre le logo et le bord */
+    }
+
 }
