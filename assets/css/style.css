@@ -27,8 +27,7 @@ header {
     padding: 20px 20px; /* Diminue le padding pour réduire la taille */
     position: relative;
     overflow: hidden;
-    /*height: 20px; /* Diminue la hauteur */
-    height: auto;
+    height: 20px; /* Diminue la hauteur */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -740,6 +739,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         display: flex;
+        height: auto;
     }
     
     nav ul {
