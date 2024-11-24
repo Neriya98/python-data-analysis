@@ -763,7 +763,7 @@ footer {
     .right, .left {
         width: 100%; /* Prend toute la largeur */
         float: none; /* Plus de float */
-        margin: 10px 0; /* Espacement entre les deux boîtes */
+        margin: 5px 0; /* Espacement entre les deux boîtes */
     }
     .tab-buttons {
         gap: 5px; /* Réduit l'espace entre les boutons sur mobile */
