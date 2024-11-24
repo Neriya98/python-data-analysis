@@ -700,7 +700,7 @@ footer {
 }
 
 /* --- Media Query for Smaller Screens --- */
-@media (max-width: 768px) {
+@media (max-width: 968px) {
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -713,6 +713,10 @@ footer {
     
     .welcome h1 {
         font-size: 2rem;
+    }
+
+    .intro-section{
+        text-align: justify;
     }
 }
 
