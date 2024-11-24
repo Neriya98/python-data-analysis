@@ -724,14 +724,17 @@ footer {
     
     .text-container {
         flex-direction: column; /* Empile les blocs */
+        gap: 10px;
     }
-    
+
     /* .right et .left en colonne */
     .right, .left {
         width: 100%; /* Prend toute la largeur */
         float: none; /* Plus de float */
         margin: 10px 0; /* Espacement entre les deux boîtes */
     }
+
+
 }
 
 /* Conteneur du CTA */
