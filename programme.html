@@ -11,6 +11,7 @@
     <header>
         <div class="header-content">
             <img src="./assets/images/maryse_2.png" alt="Logo" class="logo" />
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         </div>
         <nav class="navbar">
           <a href="/python-data-analysis/#tarifs">S'inscrire</a>
@@ -272,16 +273,23 @@
         <a href="/python-data-analysis/#tarifs" class="cta-bouton">Je m'inscris</a>
       </div>
     </section>
-<script>
-    window.addEventListener("scroll", function() {
-      var header = document.querySelector("header");
-      if (window.scrollY > 100) { // Ajustez "100" pour déterminer le point de déclenchement
-          header.classList.add("fixed");
-      } else {
-          header.classList.remove("fixed");
-      }
-    });
-  </script>
+    <script>
+        window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        if (window.scrollY > 100) { // Ajustez "100" pour déterminer le point de déclenchement
+            header.classList.add("fixed");
+        } else {
+            header.classList.remove("fixed");
+        }
+        });
+    </script>
+    <script>
+        function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+    }
+    </script>
+
   <!-- Footer -->
   <footer>
     <p>&copy; 2024 Formation Analyse de Données avec Python. Tous droits réservés.</p>
