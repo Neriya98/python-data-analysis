@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>  
+<body>
     <!-- En-tête -->
     <header>
         <div class="header-content">
@@ -26,13 +26,6 @@
     
     <!-- Animer le texte sur le header et afficher le menu sur portable -->
     <script>
-      const menuToggle = document.querySelector('.menu-toggle');
-      const navMenu = document.querySelector('nav ul');
-
-      menuToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('open');
-      });
-
       const phrases = [
           'Développez vos compétences en données',
           'Découvrez l’analyse de données avec Python',
@@ -436,5 +429,11 @@
   <footer>
     <p>&copy; 2024 Formation Analyse de Données avec Python. Tous droits réservés.</p>
   </footer>
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('open');
+    }
+  </script>
 </body>
 </html>
