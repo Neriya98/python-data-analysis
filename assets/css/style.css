@@ -23,6 +23,7 @@ h1, h2, h3, .page-title {
 header {
     background: linear-gradient(135deg, rgba(0, 123, 255, 0.5), rgba(0, 198, 255, 0.5));
     color: #fff;
+    background-color: #fff;
     text-align: center;
     padding: 20px 20px; /* Diminue le padding pour réduire la taille */
     position: relative;
