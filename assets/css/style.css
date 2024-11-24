@@ -752,6 +752,16 @@ footer {
         margin: 10px 0;
     }
 
+    .formateurs{
+        flex-direction: column;
+    }
+
+    .formateur{
+        width: 100%;
+        float: none;
+        margin: 10px;
+    }
+
 
 }
 
