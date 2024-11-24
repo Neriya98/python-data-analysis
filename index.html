@@ -430,18 +430,23 @@
     <p>&copy; 2024 Formation Analyse de Données avec Python. Tous droits réservés.</p>
   </footer>
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      function toggleMenu() {
-          const navbar = document.querySelector('.navbar');
-          if (navbar) {
-              navbar.classList.toggle('open'); // Seulement "open"
-          } else {
-              console.error('Navbar not found');
-          }
+    document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle'); // Sélection du bouton hamburger
+    const navbar = document.querySelector('.navbar'); // Sélection du menu
+
+    // Fonction pour afficher ou masquer le menu
+    function toggleMenu() {
+        if (navbar) {
+            navbar.classList.toggle('open'); // Ajouter/retirer la classe "open"
+        }
       }
 
-      window.toggleMenu = toggleMenu;
+    // Ajouter l'événement de clic au bouton
+    if (menuToggle) {
+        menuToggle.addEventListener('click', toggleMenu);
+      }
     });
+
   </script>
 </body>
 </html>

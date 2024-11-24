@@ -803,7 +803,7 @@ footer {
 
     .navbar {
         display: none; /* Masquer le menu par défaut sur mobile */
-        flex-direction: column;
+        /*flex-direction: column;*/
         position: absolute;
         top: 100%; /* Juste sous le header */
         right: 0;
@@ -815,7 +815,7 @@ footer {
     }
 
     .navbar.open {
-        display: block; /* Affiche le menu lorsqu'il est actif */
+        display: block !important; /* Affiche le menu lorsqu'il est actif */
     }
 
     .navbar a {
