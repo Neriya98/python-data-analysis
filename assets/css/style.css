@@ -802,6 +802,7 @@ footer {
     }
     
     .navbar {
+        display: block;
         font-size: 12px; 
     }
     /*
