@@ -820,8 +820,8 @@ footer {
     */
 
     .logo {
-        height: 5px;
-        width: auto;
+        height: 3px;
+        width: 25%;
         margin-left: 15px;
     }
 }
