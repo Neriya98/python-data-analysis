@@ -806,7 +806,7 @@ footer {
     }
 
     .navbar {
-        display: flex; /* Masquer le menu par défaut sur mobile */
+        display: none; /* Masquer le menu par défaut sur mobile */
         /*flex-direction: column;*/
         position: absolute;
         top: 100%; /* Juste sous le header */
@@ -834,10 +834,7 @@ footer {
         background: none;
         border: none;
     }
-
-    header .logo {
-        height: 70px;
-        margin-left: 20px; /* Espace entre le logo et le bord */
+    .logo{
+        display: none;
     }
-
 }
