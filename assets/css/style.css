@@ -749,6 +749,7 @@ footer {
     .container{
         padding: 10px;
     }
+
     .intro-section{
         padding: -10px;
     }
@@ -802,7 +803,7 @@ footer {
 
     .navbar {
         display: none; /* Masquer le menu par défaut sur mobile */
-        /*flex-direction: column;*/
+        flex-direction: column;
         position: absolute;
         top: 100%; /* Juste sous le header */
         right: 0;
@@ -810,10 +811,11 @@ footer {
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         width: 100%;
         padding: 10px 0;
+        transition: all 0.3s ease-in-out; /* Ajoute une animation fluide */
     }
 
-    .navbar.active {
-        display: flex; /* Montrer le menu si actif */
+    .navbar.open {
+        display: flex; /* Affiche le menu lorsqu'il est actif */
     }
 
     .navbar a {
@@ -822,28 +824,15 @@ footer {
     }
 
     .menu-toggle {
-        display: block;
+        display: block; /* Affiche l'icône du menu hamburger */
         cursor: pointer;
         font-size: 24px;
-        color: #fff;
+        color: #000; /* Couleur du texte */
         background: none;
         border: none;
     }
-    .logo{
+
+    .logo {
         display: none;
-    }
-
-    nav ul {
-        display: none; /* Cache le menu par défaut */
-        flex-direction: column;
-        position: absolute;
-        top: 100%; /* Sous le header */
-        left: 0;
-        width: 100%;
-        background: rgba(0, 123, 255, 0.9);
-    }
-
-    nav ul.open {
-        display: flex; /* Affiche le menu lorsqu'il est ouvert */
     }
 }
