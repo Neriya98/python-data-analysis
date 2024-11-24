@@ -746,6 +746,12 @@ footer {
         flex-direction: column;
     }
 
+    .differentiator-item{
+        width: 100%;
+        float: none;
+        margin: 35px 0;
+    }
+
 
 }
 
