@@ -724,14 +724,22 @@ footer {
     
     .text-container {
         flex-direction: column; /* Empile les blocs */
-        gap: 10px;
+        gap: 5px;
     }
 
     /* .right et .left en colonne */
     .right, .left {
         width: 100%; /* Prend toute la largeur */
         float: none; /* Plus de float */
-        margin: 10px 0; /* Espacement entre les deux boîtes */
+        margin: 50px 0; /* Espacement entre les deux boîtes */
+    }
+    .tab-buttons {
+        gap: 5px; /* Réduit l'espace entre les boutons sur mobile */
+    }
+
+    .tab-button {
+        padding: 8px 10px; /* Réduit la taille des boutons */
+        font-size: 12px; /* Réduction de la taille du texte */
     }
 
 
